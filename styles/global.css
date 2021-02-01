@@ -32,6 +32,9 @@ body {
     border: 1px white solid !important;
 }
 
+a {
+    color: rgb(0, 33, 41);
+}
 
 
 .language-* {
