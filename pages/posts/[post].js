@@ -26,7 +26,7 @@ function PostTemplate({ data }) {
         <div className={"reader "} >
         <Header/>
         <h1>{metaData.title}</h1>
-        <p>Date: {metaData.date}</p>
+        <p><i>{metaData.date} Carl Riis</i></p>
         <hr/>
         <ReactMarkdown renderers={{code: CodeBlock}} source={data.content}/>
         <hr/>

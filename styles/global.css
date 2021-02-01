@@ -36,6 +36,14 @@ a {
     color: rgb(0, 33, 41);
 }
 
+img {
+    width: 750px;
+    max-width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .language-* {
 }

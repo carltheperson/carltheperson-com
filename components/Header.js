@@ -25,6 +25,10 @@ export function Header() {
                         text-decoration: none;
                         color: black;
                     }
+
+                    button {
+                        padding: 0;
+                    }
                 `}
             </style>
         </div>
