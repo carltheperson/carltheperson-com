@@ -7,9 +7,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <DarkModeToggleProvider>
-                <head>
-                    <title>carltheperson</title>
-                </head>
+                <title>carltheperson</title>
                 <DarkModeWrapper>
                     <Component {...pageProps} />
                 </DarkModeWrapper>

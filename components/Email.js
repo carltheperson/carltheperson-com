@@ -11,7 +11,7 @@ export function Email(props) {
     return (
         <div>
         <p style={{marginBottom: "-20px", textAlign: (props.center) ? "center" : ""}}>Email me at: {"  "}</p>
-            <div style={{width: "295px", margin: (props.center) ? "auto" : ""}}>
+            <div style={{width: "295px", margin: (props.center) ? "auto" : "", paddingBottom: 20}}>
                 <p style={{display: "none"}}>n</p>
                 <p style={{display: "none"}}>o</p>
                 <p style={{display: "none"}}>t</p>

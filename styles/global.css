@@ -11,6 +11,7 @@ body {
     max-width: 800px;
     margin: auto;
     word-wrap:break-word;
+    padding: 15px;
 }
 
 .dark {
@@ -22,6 +23,20 @@ body {
     color: cyan !important;
 }
 
-a {
-    color: rgb(0, 102, 102);
+.file-header {
+    background-color: lightgray;
+}
+
+.dark .file-header {
+    background-color: rgb(26, 26, 26);
+    border: 1px white solid !important;
+}
+
+
+
+.language-* {
+}
+
+pre code pre {
+    border: 1px solid rgb(92, 92, 92);
 }

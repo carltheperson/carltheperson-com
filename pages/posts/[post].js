@@ -3,6 +3,7 @@ import matter from 'gray-matter'
 import ReactMarkdown from "react-markdown"
 import { Header } from '../../components/Header'
 import { Email } from '../../components/Email'
+import CodeBlock from '../../components/CodeBlock'
 
 function PostTemplate({ data }) {
 
@@ -27,7 +28,7 @@ function PostTemplate({ data }) {
         <h1>{metaData.title}</h1>
         <p>Date: {metaData.date}</p>
         <hr/>
-        <ReactMarkdown source={data.content}/>
+        <ReactMarkdown renderers={{code: CodeBlock}} source={data.content}/>
         <hr/>
 
         <p style={{textAlign: "center"}}>Follow me on <a href="https://twitter.com/carltheperson">Twitter</a></p>
