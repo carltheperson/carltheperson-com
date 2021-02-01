@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.reader {
+    max-width: 800px;
+    margin: auto;
+    word-wrap:break-word;
+}
+
+.dark {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.dark a {
+    color: cyan !important;
+}
+
+a {
+    color: rgb(0, 102, 102);
+}
