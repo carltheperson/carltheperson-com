@@ -1,16 +1,17 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Prism } from "react-syntax-highlighter";
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import { prism} from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import {useDarkModeToggle} from "../utils/useDarkModeToggle"
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
 export default function CodeBlock(props) {
     const {dark, toggleDark} = useDarkModeToggle()
     const [copyText, setCopyText] = useState("copy")
+    const textAreaRef = useRef(null)
 
     const copyClick = () => {
-        navigator.clipboard.writeText(removeFileName(props.value))
         setCopyText("copied")
         setTimeout(() => {
             setCopyText("copy")
@@ -54,10 +55,11 @@ export default function CodeBlock(props) {
             )}
             
             <code>
+                <CopyToClipboard onCopy={copyClick} text={removeFileName(props.value)}>
                         <button style={{top: getFileName(props.value) ? "33px" : "8px"}}
-                            onClick={copyClick}
-                            
                             >{copyText}</button>
+                </CopyToClipboard>
+
                     <Prism language={props.language} style={dark ? dracula : prism} >
                         {addPossibleWhiteSpace(removeFileName(props.value))}
                     </Prism>

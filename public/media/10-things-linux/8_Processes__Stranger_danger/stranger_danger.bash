@@ -1,1 +1,0 @@
-sudo ps -ef | awk "{if (\$1 != \"$USER\" && \$1 != \"root\") print}"
