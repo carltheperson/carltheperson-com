@@ -1,10 +1,16 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
 export const darkModeToggleContext = createContext(undefined);
 
 export const useDarkModeToggle = () => useContext(darkModeToggleContext);
 
-export function DarkModeToggleProvider({ children }) {
+interface DarkModeToggleProviderProps {
+  children: React.ReactNode;
+}
+
+export const DarkModeToggleProvider = ({
+  children,
+}: DarkModeToggleProviderProps) => {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
@@ -28,4 +34,4 @@ export function DarkModeToggleProvider({ children }) {
       {children}
     </darkModeToggleContext.Provider>
   );
-}
+};

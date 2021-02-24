@@ -1,20 +1,20 @@
-import { DarkModeWrapper } from "../components/DarkModeWrapper"
-import "../styles/global.css"
-import { DarkModeToggleProvider} from "../utils/useDarkModeToggle"
+import React from "react";
+import { DarkModeWrapper } from "../components/DarkModeWrapper";
+import { DarkModeToggleProvider } from "../hooks/useDarkModeToggle";
 
-function MyApp({ Component, pageProps }) {
+import "../styles/global.css";
 
-    return (
-        <>
-            <DarkModeToggleProvider>
-                <title>carltheperson</title>
-                <DarkModeWrapper>
-                    <Component {...pageProps} />
-                </DarkModeWrapper>
-            </DarkModeToggleProvider>
-            
-        </>
-    )
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <>
+      <DarkModeToggleProvider>
+        <title>carltheperson</title>
+        <DarkModeWrapper>
+          <Component {...pageProps} />
+        </DarkModeWrapper>
+      </DarkModeToggleProvider>
+    </>
+  );
+};
 
-export default MyApp
+export default MyApp;

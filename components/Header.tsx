@@ -1,22 +1,25 @@
-import Link from "next/link"
-import { useDarkModeToggle } from '../utils/useDarkModeToggle'
+import React from "react";
 
+import Link from "next/link";
+import { useDarkModeToggle } from "../hooks/useDarkModeToggle";
 
-export function Header() {
-    const {dark, toggleDark} = useDarkModeToggle()
+export const Header = () => {
+  const { dark, toggleDark } = useDarkModeToggle();
 
-    return (
-        <div>
-            <div style={{display: "flex", justifyContent: "space-between"}}>
-                <Link href="/">
-                    <a>{"<-- carltheperson.com"}</a>
-                </Link>
+  return (
+    <div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <Link href="/">
+          <a>{"<-- carltheperson.com"}</a>
+        </Link>
 
-                <button style={{margin: "5px"}} onClick={toggleDark}>{dark ? "Light mode" : "Dark mode"}</button>
-            </div>
+        <button style={{ margin: "5px" }} onClick={toggleDark}>
+          {dark ? "Light mode" : "Dark mode"}
+        </button>
+      </div>
 
-            <style jsx>
-                {`
+      <style jsx>
+        {`
                     div {rea
                         width: 100%;
                     }
@@ -30,7 +33,7 @@ export function Header() {
                         padding: 0;
                     }
                 `}
-            </style>
-        </div>
-    )
-}
+      </style>
+    </div>
+  );
+};

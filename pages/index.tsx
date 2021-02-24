@@ -1,6 +1,6 @@
 import { PostsList } from "../components/PostsList";
 
-function Homepage() {
+export default () => {
   return (
     <div className="reader">
       <h1>Carl The Person</h1>
@@ -11,6 +11,4 @@ function Homepage() {
       <PostsList />
     </div>
   );
-}
-
-export default Homepage;
+};

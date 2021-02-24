@@ -1,11 +1,12 @@
 import React from "react";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
+
 import { Header } from "../../components/Header";
 import { Email } from "../../components/Email";
-import CodeBlock from "../../components/CodeBlock";
+import { CodeBlock } from "../../components/CodeBlock";
 
-function PostTemplate({ data }) {
+export default ({ data }) => {
   if (data == null) {
     return (
       <div>
@@ -34,7 +35,7 @@ function PostTemplate({ data }) {
       <Email center={true} />
     </div>
   );
-}
+};
 
 export async function getStaticPaths() {
   const posts = process.env.posts;
@@ -62,5 +63,3 @@ export async function getStaticProps({ params }) {
 
   return { props: { data } };
 }
-
-export default PostTemplate;

@@ -1,18 +1,22 @@
+import React from "react";
 import { Prism } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { prism } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { useDarkModeToggle } from "../utils/useDarkModeToggle";
+import { useDarkModeToggle } from "../hooks/useDarkModeToggle";
 
-export default function CodeBlock(props) {
-  const code = props.value;
-  const language = props.language;
+interface CodeBlockProps {
+  code: string;
+  language: string;
+}
+
+export const CodeBlock = ({ code, language }: CodeBlockProps) => {
   const { dark } = useDarkModeToggle();
 
-  const doesCodeContainFilename = (code) => {
+  const doesCodeContainFilename = (code: string) => {
     return code.includes("[FILENAME]");
   };
 
-  const removeFilename = (code) => {
+  const removeFilename = (code: string) => {
     if (doesCodeContainFilename(code)) {
       let lines = code.split("\n");
       lines.splice(0, 1);
@@ -21,7 +25,7 @@ export default function CodeBlock(props) {
     return code;
   };
 
-  const getFilename = (code) => {
+  const getFilename = (code: string) => {
     if (code.includes("[FILENAME]")) {
       return code.split("[FILENAME]")[1];
     }
@@ -65,4 +69,4 @@ export default function CodeBlock(props) {
       </style>
     </pre>
   );
-}
+};

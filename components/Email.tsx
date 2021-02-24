@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-export function Email(props) {
+// This is meant to throw off scrapers
+export const Email = () => {
   const [at, setAt] = useState("_");
 
   useEffect(() => {
@@ -12,7 +13,7 @@ export function Email(props) {
       <p
         style={{
           marginBottom: "-20px",
-          textAlign: props.center ? "center" : undefined,
+          textAlign: "center",
         }}
       >
         Email me at: {"  "}
@@ -20,7 +21,7 @@ export function Email(props) {
       <div
         style={{
           width: "295px",
-          margin: props.center ? "auto" : "",
+          margin: "auto",
           paddingBottom: 20,
         }}
       >
@@ -58,7 +59,7 @@ export function Email(props) {
         <div></div>
         <p>i</p>
         <p>l</p>
-        <p>{at == "@" ? "." : ":"}</p>
+        <p>{at === "@" ? "." : ":"}</p>
         <p>c</p>
         <p>o</p>
         <p>m</p>
@@ -75,4 +76,4 @@ export function Email(props) {
       </div>
     </div>
   );
-}
+};

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/carltheperson/carltheperson-com#readme",
   "dependencies": {
+    "@types/react-syntax-highlighter": "^13.5.0",
     "gray-matter": "^4.0.2",
     "next": "^10.0.6",
     "raw-loader": "^4.0.2",

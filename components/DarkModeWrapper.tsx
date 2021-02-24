@@ -1,13 +1,19 @@
-import {useDarkModeToggle} from "../utils/useDarkModeToggle"
+import React from "react";
+import { useDarkModeToggle } from "../hooks/useDarkModeToggle";
 
-export function DarkModeWrapper({children}) {
-
-    const {dark, toggleDark} = useDarkModeToggle()
-
-
-    return (
-        <div style={{width: "100%", height: "100%", minHeight: "100vh"}} className={dark ? "dark" : ""}>
-            {children}
-        </div>
-    )
+interface DarkModeWrapperProps {
+  children: React.ReactNode;
 }
+
+export const DarkModeWrapper = ({ children }: DarkModeWrapperProps) => {
+  const { dark } = useDarkModeToggle();
+
+  return (
+    <div
+      style={{ width: "100%", height: "100%", minHeight: "100vh" }}
+      className={dark ? "dark" : ""}
+    >
+      {children}
+    </div>
+  );
+};
