@@ -1,44 +1,41 @@
 import React from "react";
-import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 
 import { Header } from "../../components/Header";
 import { Email } from "../../components/Email";
 import { CodeBlock } from "../../components/CodeBlock";
+import { parsePostData } from "../../utils/parsePostList";
+import { IPostData } from "../../utils/parsePostList";
 
-export default ({ data }) => {
-  if (data == null) {
-    return (
-      <div>
-        <Header />
-        <p>You're not supposed to see this... The post can't be found</p>
-        <h1>404</h1>
-      </div>
-    );
-  }
+interface DefaultPostTemplateProps {
+  postData: IPostData;
+}
 
-  const metaData = data.data;
+const DefaultPostTemplate = ({ postData }: DefaultPostTemplateProps) => {
   return (
     <div className={"reader "}>
       <Header />
-      <h1>{metaData.title}</h1>
+      <h1>{postData.title}</h1>
       <p>
-        <i>{metaData.date} Carl Riis</i>
+        <i>{postData.date} Carl Riis</i>
       </p>
-      <hr />
-      <ReactMarkdown renderers={{ code: CodeBlock }} source={data.content} />
+      <ReactMarkdown
+        renderers={{ code: CodeBlock }}
+        source={postData.content}
+      />
       <hr />
 
       <p style={{ textAlign: "center" }}>
         Follow me on <a href="https://twitter.com/carltheperson">Twitter</a>
       </p>
-      <Email center={true} />
+      <Email />
     </div>
   );
 };
+export default DefaultPostTemplate;
 
 export async function getStaticPaths() {
-  const posts = process.env.posts;
+  const posts = (process.env.posts as unknown) as { urlName: string }[];
 
   const paths = posts.map((post) => ({
     params: { post: post.urlName },
@@ -48,18 +45,5 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = params.post;
-
-  let content = undefined;
-  try {
-    content = await import(`../../content/${post}.md`);
-  } catch {
-    const data = null;
-    return { data };
-  }
-  const data = matter(content.default);
-
-  delete data.orig; // Unparseable and unneeded field
-
-  return { props: { data } };
+  return { props: { postData: await parsePostData(params.post) } };
 }

@@ -1,6 +1,6 @@
 ---
 title: "How to set up Jenkins CI in Docker Container & Run Your Tests Inside Their Own Container"
-date: 2020-5-3
+date: "3-5-2020"
 ---
 
 ### So you want to start testing your code? Good choice. Testing is a great way to make sure nothing breaks in deployment, and Jenkins makes it easy to automate this process.
@@ -23,7 +23,7 @@ If your project is meant to be deployed using Docker it is important that your t
 
 ## Setting up Jenkins
 
-Here we are going to need Docker to be installed inside our Jenkins container, so we create a Dockerfile that builds on top of the official Jenkins image. Put this in a file called *Dockerfile_jenkins_setup*
+Here we are going to need Docker to be installed inside our Jenkins container, so we create a Dockerfile that builds on top of the official Jenkins image. Put this in a file called _Dockerfile_jenkins_setup_
 
 ```dockerfile
 FROM jenkins/jenkins:lts
@@ -62,7 +62,7 @@ docker build -f DockerfileJenkinsSetup -t gustavoapolinario/jenkins-docker .
 **Running the container:**
 
 ```bash
-docker run -d -p 8080:8080 \ 
+docker run -d -p 8080:8080 \
 -v /var/run/docker.sock:/var/run/docker.sock \
  -v /var/jenkins_home:/var/jenkins_home \ # Optional
  --name Jenkins_Docker gustavoapolinario/jenkins-docker
@@ -71,7 +71,7 @@ docker run -d -p 8080:8080 \
 docker run -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /var/jenkins_home:/var/jenkins_home --name Jenkins_Docker gustavoapolinario/jenkins-docker
 ```
 
-Now visit *localhost:8080*
+Now visit _localhost:8080_
 
 Jenkins will ask you for a password. You can retrieve it by running:
 
@@ -80,26 +80,27 @@ docker exec Jenkins_Docker cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
 Just a few more things to set up Jenkins:
- - Click: Install suggested plugins
- - Fill in your information
+
+- Click: Install suggested plugins
+- Fill in your information
 
 ## The app
 
 For this project I have created a very simple Node app. You can find the full source code at: [https://github.com/carltheperson/Jenkins-Docker-Example.git](https://github.com/carltheperson/Jenkins-Docker-Example.git)
-I have also written a simple test using Mocha and Chai. The test just tests if the app returns with status 200. I test my app using *npm test*
+I have also written a simple test using Mocha and Chai. The test just tests if the app returns with status 200. I test my app using _npm test_
 
 ```javascript
 const express = require("express");
 const app = express();
-const port =  process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.status(200);
-    res.send("Cool beans");
+app.get("/", (req, res) => {
+  res.status(200);
+  res.send("Cool beans");
 });
 
-app.listen(port, () => { 
-    console.log(`App is up and listening on port ${port}`);
+app.listen(port, () => {
+  console.log(`App is up and listening on port ${port}`);
 });
 
 module.exports = app;
@@ -128,17 +129,18 @@ CMD ["npm", "start"]
 ## The pipeline
 
 We are now going to create the pipeline that will build our Docker image and run our tests inside.
- - On the Jenkins homepage, Click: New Item
- - Pick Pipeline
- - Select: Pipeline script from SCM
- - Put in your git repository.
- - Add the path to your Jenkinsfile
+
+- On the Jenkins homepage, Click: New Item
+- Pick Pipeline
+- Select: Pipeline script from SCM
+- Put in your git repository.
+- Add the path to your Jenkinsfile
 
 ![pipeline image](/media/jenkins-in-docker-and-tests-inside-own-container/pipeline.jpeg)
 
 Now we should be good to go. When we ask Jenkins to build our app, it will clone our repository and execute our Jenkinsfile.
 
-Here is the Jenkinsfile I am using. It will build an image from the files in the Git repository using our Dockerfile. It will then enter the image and extract the *PROJECTDIR* environment variable that we defined earlier. Then it copies everything from that directory into our workspace. This is not always necessary, and we could just run the tests directly with the files from the repository, but I like doing it because the project directory might look different depending on what you specified in your Dockerfile.
+Here is the Jenkinsfile I am using. It will build an image from the files in the Git repository using our Dockerfile. It will then enter the image and extract the _PROJECTDIR_ environment variable that we defined earlier. Then it copies everything from that directory into our workspace. This is not always necessary, and we could just run the tests directly with the files from the repository, but I like doing it because the project directory might look different depending on what you specified in your Dockerfile.
 Our pipeline will then go inside the new directory and run the test. At the end it will remove the Docker image, so you don't get a bunch of images from old builds taking up space.
 
 ```groovy
@@ -183,9 +185,9 @@ pipeline {
 ## Building
 
 We can now try building our app (just select your item and click build) and it should fail or succeed depending on if the tests we’ve written pass.
-If something unexpected happens you can click on the build and look at the console output. This should give you a clue as to what happened. 
+If something unexpected happens you can click on the build and look at the console output. This should give you a clue as to what happened.
 
-If your build fails saying something like *“Got permission denied while trying to connect to the Docker daemon socket”*, then the GID of the Docker group in the container does not match the one on your machine (some problems with permissions). What worked for me on Ubuntu was:
+If your build fails saying something like _“Got permission denied while trying to connect to the Docker daemon socket”_, then the GID of the Docker group in the container does not match the one on your machine (some problems with permissions). What worked for me on Ubuntu was:
 
 ```bash
 docker exec --user root Jenkins_Docker groupmod -g `cut -d: -f3 < <(getent group docker)` docker
@@ -194,4 +196,4 @@ docker restart Jenkins_Docker
 
 ## Conclusion
 
-You should now be able to set up Jenkins in a Docker container and create a pipeline that builds an image and runs tests inside it. Hopefully you will get into the habit of continuous integration, and I am sure it will improve your workflow. 
+You should now be able to set up Jenkins in a Docker container and create a pipeline that builds an image and runs tests inside it. Hopefully you will get into the habit of continuous integration, and I am sure it will improve your workflow.

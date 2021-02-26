@@ -16,7 +16,7 @@ module.exports = {
             
             const metaData = matter(data)
 
-            return {title: metaData.data.title, date: metaData.data.date, fileName: file, urlName: urlName}
+            return {title: metaData.data.title, date: metaData.data.date, filename: file, urlName: urlName}
         })
     }
 }

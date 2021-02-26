@@ -7,6 +7,7 @@ import "../styles/global.css";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
+      <script>0</script>
       <DarkModeToggleProvider>
         <title>carltheperson</title>
         <DarkModeWrapper>
