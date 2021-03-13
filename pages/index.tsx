@@ -8,7 +8,7 @@ const index = () => {
         Follow me on <a href="https://twitter.com/carltheperson">Twitter</a>
       </p>
       <h2>Posts:</h2>
-      {/* <PostsList /> */}
+      <PostsList />
     </div>
   );
 };
