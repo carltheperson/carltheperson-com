@@ -4,8 +4,12 @@ import ReactMarkdown from "react-markdown";
 import { Header } from "../../components/Header";
 import { Email } from "../../components/Email";
 import { CodeBlock } from "../../components/CodeBlock";
-import { parsePostData } from "../../utils/parsePostList";
-import { IPostData } from "../../utils/parsePostList";
+import {
+  IPostData,
+  parsePostData,
+  parsePostUrlName,
+} from "../../utils/parse-post-data";
+import { retrievePostDataFromEnv } from "../../utils/retrieve-post-data-from-env";
 
 interface DefaultPostTemplateProps {
   postData: IPostData;
@@ -35,15 +39,21 @@ const DefaultPostTemplate = ({ postData }: DefaultPostTemplateProps) => {
 export default DefaultPostTemplate;
 
 export async function getStaticPaths() {
-  const posts = (process.env.posts as unknown) as { urlName: string }[];
-
-  const paths = posts.map((post) => ({
-    params: { post: post.urlName },
+  const paths = retrievePostDataFromEnv().map((postData) => ({
+    params: { post: parsePostUrlName(postData.filename) },
   }));
 
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
-  return { props: { postData: await parsePostData(params.post) } };
+  const postEnvData = retrievePostDataFromEnv().find(
+    (postData) => parsePostUrlName(postData.filename) === params.post
+  );
+
+  const postData = parsePostData(postEnvData.fileContents);
+
+  return {
+    props: { postData },
+  };
 }

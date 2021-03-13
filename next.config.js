@@ -1,4 +1,4 @@
-const getPostsList = require("./utils/postListGenerator").getPostsList;
+const getPostsData = require("./utils/post-data-generator").getPostsData;
 
 module.exports = {
   webpack: function (config) {
@@ -9,6 +9,6 @@ module.exports = {
     return config;
   },
   env: {
-    posts: getPostsList(),
+    posts: getPostsData(),
   },
 };

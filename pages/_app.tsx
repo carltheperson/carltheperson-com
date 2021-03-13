@@ -6,7 +6,7 @@ import "../styles/global.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <>
+    <div>
       <script>0</script>
       <DarkModeToggleProvider>
         <title>carltheperson</title>
@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
           <Component {...pageProps} />
         </DarkModeWrapper>
       </DarkModeToggleProvider>
-    </>
+    </div>
   );
 };
 
