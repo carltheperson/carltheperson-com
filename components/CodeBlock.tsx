@@ -5,11 +5,13 @@ import { prism } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { useDarkModeToggle } from "../hooks/useDarkModeToggle";
 
 interface CodeBlockProps {
-  code: string;
+  value: string;
   language: string;
 }
 
-export const CodeBlock = ({ code, language }: CodeBlockProps) => {
+export const CodeBlock = ({ value, language }: CodeBlockProps) => {
+  const code = value;
+
   const { dark } = useDarkModeToggle();
 
   const doesCodeContainFilename = (code: string) => {
