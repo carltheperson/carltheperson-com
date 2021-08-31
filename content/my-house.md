@@ -5,7 +5,7 @@ date: "08-31-2021"
 
 # My house
 
-On the 19 of August, I bought a house with a small garden. The house is what in English apparently is called an _allotment hut._ Basically, a small slot meant for vegetable gardening which sometimes has a house or shed. Not really meant for living in. But after nearly a year of work, I moved into mine. It's legal as long as I don't live there all year round (I did skip out on the winters). Price for the slot was 5,500$ which for a 17-year old was a pretty big investment. The cost for all the materials needed to make it livable was about the same.
+On the 19 of August, I bought a house with a small garden. The house is what in English apparently is called an _allotment._ Basically, a small slot meant for vegetable gardening which sometimes has a house or shed. Not really meant for living in. But after nearly a year of work, I moved into mine. It's legal as long as I don't live there all year round (I skip out on the winters). Price for the slot was 5,500$ which for a 17-year old was a pretty big investment. The cost for all the materials needed to make it livable was about the same.
 
 ![](/media/my-house/first.png)
 _Picture I took of the house the day I bought it_
