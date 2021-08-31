@@ -1,6 +1,6 @@
 ---
 title: "My house"
-date: "31-08-2021"
+date: "08-31-2021"
 ---
 
 # My house

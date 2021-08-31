@@ -1,6 +1,6 @@
 ---
 title: "Getting better at Linux with 10 mini-projects"
-date: "28-11-2020"
+date: "11-28-2020"
 ---
 
 ### How do you advance your Linux skills when you are already comfortable with the basics? My solution was to come up with 10 subjects to learn and create an accompanying mini-project.

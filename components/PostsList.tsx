@@ -11,10 +11,20 @@ export const PostsList = () => {
     };
   });
 
+  console.log(posts.map((p) => new Date(p.data.date)));
+
+  const sortedPosts = posts.sort((a, b) => {
+    const aDate = new Date(a.data.date);
+    const bDate = new Date(b.data.date);
+    return bDate.getTime() - aDate.getTime();
+  });
+
+  console.log(sortedPosts.map((p) => new Date(p.data.date)));
+
   return (
     <div>
       <ul>
-        {posts.map((post) => {
+        {sortedPosts.map((post) => {
           return (
             <li key={post.urlName}>
               <Link href={"/posts/" + post.urlName}>
