@@ -30,7 +30,7 @@ After the walls and ceiling were painted I laid down the floor with vinyl click 
 
 ![](/media/my-house/floor.jpg)
 
-I then bought a bunch of second hand furniture and a kitchen. I realize I'm making it seem a lot easier than it was. It really was a ton of work. I also can't take all the credit since my parents helped me out a lot. But there you have it. The end result is a livable (though slightly primitive) house which I absolutely love living in.
+I then bought a bunch of second hand furniture and a kitchen. I realize I'm making it seem a lot easier than it was. It really was a ton of work. I also can't take all the credit since my parents helped me out a lot. But there you have it. The end result is a liveable (though slightly primitive) house which I absolutely love living in.
 
 Here are some pictures of the end result.
 
