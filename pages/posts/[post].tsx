@@ -30,7 +30,8 @@ const DefaultPostTemplate = ({ postData }: DefaultPostTemplateProps) => {
       <hr />
 
       <p style={{ textAlign: "center" }}>
-        Check out my <a href="https://github.com/carltheperson">GitHub</a>
+        Check out my <a href="https://github.com/carltheperson">GitHub</a> and
+        my <a href="https://twitter.com/carltheperson">Twitter</a>
       </p>
       <Email />
     </div>
