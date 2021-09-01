@@ -5,7 +5,8 @@ const index = () => {
     <div className="reader">
       <h1>Carl The Person</h1>
       <p>
-        Follow me on <a href="https://twitter.com/carltheperson">Twitter</a>
+        Check out my GitHub{" "}
+        <a href="https://github.com/carltheperson">Twitter</a>
       </p>
       <h2>Posts:</h2>
       <PostsList />
