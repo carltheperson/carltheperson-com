@@ -17,5 +17,6 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CARL_THE_PERSON }}"
           projectId: carl-the-person
+          channelId: "pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}"
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
