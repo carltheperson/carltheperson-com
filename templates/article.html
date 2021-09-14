@@ -1,0 +1,13 @@
+{{template "base" .}}
+
+{{define "title"}}{{.Title}}{{end}}
+
+{{define "main"}}
+<h1>{{.Title}}</h1>
+
+{{.HtmlContent}}
+
+<a href="http://127.0.0.1:5500/build/posts/my-house">click here</a>
+
+
+{{end}}
