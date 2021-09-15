@@ -1,4 +1,4 @@
-<h1 align="center">carltheperson.com</h1>
+<h1 align="center"><a href="https://carltheperson.com">carltheperson.com</a></h1>
 
 My personal blog.
 
