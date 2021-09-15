@@ -1,6 +1,10 @@
 {{template "base" .}} {{define "title"}}{{.Title}}{{end}} {{define "main"}}
 
 <div class="reader">
+	<div>
+		<a style="float: left; width: 100%; margin-bottom: 30px;" href="/"><-- carltheperson.com</a>
+	</div>
+
   <h1>{{.Title}}</h1>
   <p>
     <i>{{.Date}} Carl Riis</i>
@@ -17,7 +21,7 @@
     <p style="text-align: center" id="email"></p>
       <script>
         setTimeout(() => {
-          document.getElementById("email").innerHTML = "Email me: carltheperson@protonmail.com";
+          document.getElementById("email").innerHTML = "Email me: <i>carltheperson@protonmail.com</i>";
         }, 1500);
       </script>
 
