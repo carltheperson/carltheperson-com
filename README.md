@@ -18,7 +18,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 <details>
     <summary><i>Click here to read a story</i></summary>
-<p align="center">
+<p align="center"><i>
                          THE GREEDY DOG
 
 Once upon a time . . . a dog managed to steal a large steak from a
@@ -33,7 +33,7 @@ Only then did he realize that, when he barked to frighten the other, he had
 dropped his stolen meat. Unluckily for him, the current was swift and the
 steak had been carried away. And though the dog hunted all over, he couldn't
 find a trace of it. Which meant, that instead of having two steaks. he was
-left with nothing.
+left with nothing.</i>
 
 <!-- http://textfiles.com/stories/greedog.txt -->
 </p>
