@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: "Setup go"
-      - uses: actions/setup-go@v2
-      - run: "go get"
+        uses: actions/setup-go@v2
+        run: "go get"
 
       - name: "Create build"
       - run: go run .
