@@ -47,6 +47,11 @@ func copyImages() {
 	CopyDirectory("./content/images", "./build/images")
 }
 
+func copyCodeFormatting() {
+	Copy("./templates/code-formatting/prism.css", "./build/prism.css")
+	Copy("./templates/code-formatting/prism.js", "./build/prism.js")
+}
+
 func main() {
 
 	fmt.Println("Creating home page")
@@ -57,4 +62,7 @@ func main() {
 
 	fmt.Println("Copying images")
 	copyImages()
+
+	fmt.Println("Copying code formatter")
+	copyCodeFormatting()
 }
