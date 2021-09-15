@@ -4,4 +4,4 @@ echo export PATH=$PATH:/usr/local/go/bin > ~/.profile
 
 source ~/.profile
 
-go version
+go run .
