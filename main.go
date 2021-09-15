@@ -2,11 +2,8 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
-	"strings"
+	"sort"
 	"text/template"
-
-	"github.com/gomarkdown/markdown"
 )
 
 func createHomePage() {
@@ -15,51 +12,25 @@ func createHomePage() {
 		panic(err)
 	}
 
-	err = createBuildFileUsingTemplate(t, "index.html", struct{}{})
+	articles := getArticles()
+
+	sort.Slice(articles, func(i, j int) bool {
+		unixI := getUnixTimeFromDateString(articles[i].Date)
+		unixJ := getUnixTimeFromDateString(articles[j].Date)
+
+		return unixI > unixJ
+	})
+
+	err = createBuildFileUsingTemplate(t, "index.html", articles)
 	if err != nil {
 		panic(err)
 	}
-}
-
-type Article struct {
-	Title       string
-	Date        string
-	UrlName     string
-	HtmlContent string
 }
 
 func createArticlePages() {
-	files, err := ioutil.ReadDir("./content")
-	if err != nil {
-		panic(err)
-	}
+	articles := getArticles()
 
-	fileNames := []string{}
-
-	for _, file := range files {
-		if !file.IsDir() {
-			fileNames = append(fileNames, file.Name())
-		}
-	}
-
-	for _, fileName := range fileNames {
-		b, err := ioutil.ReadFile("./content/" + fileName)
-		if err != nil {
-			panic(err)
-		}
-		source := string(b)
-		sourceClipped := strings.Split(source, "---\n\n")[1]
-
-		md := []byte(sourceClipped)
-		output := markdown.ToHTML(md, nil, nil)
-
-		article := Article{
-			Title:       getMetadataField(source, "title"),
-			Date:        getMetadataField(source, "date"),
-			HtmlContent: string(output),
-			UrlName:     strings.Split(fileName, ".")[0],
-		}
-
+	for _, article := range articles {
 		t, err := template.ParseFiles("./templates/article.html", "./templates/base.html")
 		if err != nil {
 			panic(err)

@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"text/template"
+	"time"
 
 	"github.com/yuin/goldmark"
 	meta "github.com/yuin/goldmark-meta"
@@ -56,4 +57,14 @@ func getMetadataField(source string, fieldName string) string {
 	}
 	metaData := meta.Get(context)
 	return fmt.Sprintf("%v", metaData[fieldName])
+}
+
+func getUnixTimeFromDateString(date string) int64 {
+	layout := "1-2-2006"
+	t, err := time.Parse(layout, date)
+	if err != nil {
+		panic(err)
+	}
+
+	return t.Unix()
 }
