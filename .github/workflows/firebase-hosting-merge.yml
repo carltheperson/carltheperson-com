@@ -14,8 +14,6 @@ jobs:
 
       - name: "Setup go"
       - uses: actions/setup-go@v2
-
-      - name: "Install modules"
       - run: "go get"
 
       - name: "Create build"
