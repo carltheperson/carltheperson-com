@@ -6,6 +6,26 @@ My personal blog.
 
 I simply create a new markdown file in the _content_ directory. The filename will be used for the URL name, and the start of the file contains information like _title_ and _date_.
 
+## How I produce a build
+
+**1.** Install go
+
+[Install page](https://golang.org/doc/install)
+
+**2.** Install dependencies
+
+```go
+go get
+```
+
+**3.** Run program and create build
+
+```go
+go run .
+```
+
+This creates a bunch of HTML files that I then host
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
@@ -35,6 +55,7 @@ steak had been carried away. And though the dog hunted all over, he couldn't
 find a trace of it. Which meant, that instead of having two steaks. he was
 left with nothing.</i>
 
+<!-- NOT WRITTEN BY ME -->
 <!-- http://textfiles.com/stories/greedog.txt -->
 </p>
 </details>
