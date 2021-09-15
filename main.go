@@ -47,6 +47,10 @@ func copyImages() {
 	CopyDirectory("./content/images", "./build/images")
 }
 
+func copyFavicon() {
+	Copy("./templates/favicon.ico", "./build/favicon.ico")
+}
+
 func copyCodeFormatting() {
 	Copy("./templates/code-formatting/prism.css", "./build/prism.css")
 	Copy("./templates/code-formatting/prism.js", "./build/prism.js")
@@ -61,6 +65,7 @@ func main() {
 	createArticlePages()
 
 	fmt.Println("Copying images")
+	copyFavicon()
 	copyImages()
 
 	fmt.Println("Copying code formatter")
