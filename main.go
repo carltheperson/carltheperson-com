@@ -70,7 +70,10 @@ func createArticlePages() {
 			panic(err)
 		}
 	}
+}
 
+func copyImages() {
+	CopyDirectory("./content/images", "./build/images")
 }
 
 func main() {
@@ -80,4 +83,7 @@ func main() {
 
 	fmt.Println("Creating article pages")
 	createArticlePages()
+
+	fmt.Println("Copying images")
+	copyImages()
 }

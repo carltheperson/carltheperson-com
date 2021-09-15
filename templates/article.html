@@ -1,13 +1,27 @@
-{{template "base" .}}
+{{template "base" .}} {{define "title"}}{{.Title}}{{end}} {{define "main"}}
 
-{{define "title"}}{{.Title}}{{end}}
+<div class="reader">
+  <h1>{{.Title}}</h1>
+  <p>
+    <i>{{.Date}} Carl Riis</i>
+  </p>
 
-{{define "main"}}
-<h1>{{.Title}}</h1>
+  {{.HtmlContent}}
 
-{{.HtmlContent}}
+  <hr />
 
-<a href="http://127.0.0.1:5500/build/posts/my-house">click here</a>
+  <p style="text-align: center">
+    Check out my <a href="https://github.com/carltheperson">GitHub</a> and my
+    <a href="https://twitter.com/carltheperson">Twitter</a>
 
+    <p style="text-align: center" id="email"></p>
+      <script>
+        setTimeout(() => {
+          document.getElementById("email").innerHTML = "Email me: carltheperson@protonmail.com";
+        }, 1500);
+      </script>
+
+  </p>
+</div>
 
 {{end}}
