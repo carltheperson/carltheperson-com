@@ -68,6 +68,7 @@
 
       document.getElementById("button").addEventListener("click", () => {
           document.getElementById("secret").style = ""
+          document.getElementById("correct-message").scrollIntoView()
           const element = document.createElement("script")
           element.src = "https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"
           document.getElementsByTagName('head')[0].append(element)
