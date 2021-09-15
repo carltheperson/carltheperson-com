@@ -1,0 +1,61 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{template "title" .}}</title>
+    <link rel="stylesheet" href="/prism.css" />
+  </head>
+  <body>
+    {{template "main" .}}
+    <script src="/prism.js"></script>
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+    body {
+      font-family: "Source Serif Pro", serif;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      /* padding: 2.5px !important; */
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .reader {
+      max-width: 800px;
+      margin: auto;
+      word-wrap: break-word;
+      padding: 15px;
+    }
+
+    a {
+      color: rgb(0, 33, 41);
+    }
+
+    img {
+      max-width: 90vw;
+      max-height: 800px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media only screen and (min-width: 800px) {
+      img {
+        max-width: 750px !important;
+      }
+    }
+
+    code {
+      font-size: 16px;
+    }
+  </style>
+</html>
+{{end}}

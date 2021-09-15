@@ -1,0 +1,33 @@
+{{template "base" .}} {{define "title"}}{{.Title}}{{end}} {{define "main"}}
+
+<div class="reader">
+	<div>
+		<a style="float: left; width: 100%; margin-bottom: 30px;" href="/"><-- carltheperson.com</a>
+	</div>
+  <br>
+  <div style="background-color: #fdf6e3a1">
+    <h1>{{.Title}}</h1>
+    <p style="color: rgb(66, 66, 66);text-align: center;padding-bottom: 10px;">
+      <i>{{.Date}} Carl Riis</i>
+    </p>
+  </div>
+
+  {{.HtmlContent}}
+
+  <hr />
+
+  <p style="text-align: center">
+    Check out my <a href="https://github.com/carltheperson">GitHub</a> and my
+    <a href="https://twitter.com/carltheperson">Twitter</a>
+
+    <p style="text-align: center" id="email"></p>
+      <script>
+        setTimeout(() => {
+          document.getElementById("email").innerHTML = "Email me: <i>carltheperson@protonmail.com</i>";
+        }, 1500);
+      </script>
+
+  </p>
+</div>
+
+{{end}}
