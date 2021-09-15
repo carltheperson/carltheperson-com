@@ -28,6 +28,62 @@
       </script>
 
   </p>
+
+
+  <div style="text-align: center; margin-top: 50px">
+  <input placeholder="Password" style="opacity: 0.75;" /><button id="button" style="opacity: 0.75;">Confirm password</button>
+  <div id="secret" style="display: none;">
+    <div style="margin-top: 50px;">
+    <div id="correct-message">
+      <h2>Password is correct</h2>
+    </div>
+    <div id="actual-secret" style="display: none;">
+      <div id="canvas-container" style="margin-bottom: 50px;"></div>
+      <script>
+        function setup() {
+          let myCanvas = createCanvas(600, 400);
+          background("#fdf6e3a1")
+          myCanvas.parent('canvas-container');
+        }
+
+        let size = 10
+        let isStarted = false
+
+        function mouseMoved() {
+          isStarted = true
+        }
+
+        function mousePressed() {
+          size *= 0.75
+        }
+
+        function draw() {
+          if (!isStarted) {
+            return
+          }
+          
+            
+          fill(60, 120,120)
+            
+          ellipse(mouseX, mouseY, size, size);
+          size += 0.1
+}
+      </script>
+    </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("button").addEventListener("click", () => {
+        document.getElementById("secret").style = ""
+        setTimeout(() => {
+          document.getElementById("correct-message").style = "display: none"
+          document.getElementById("actual-secret").style = ""
+        }, 3000)
+    })
+  </script>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
 </div>
 
 {{end}}
