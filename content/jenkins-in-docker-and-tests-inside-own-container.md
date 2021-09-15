@@ -5,11 +5,11 @@ date: "5-3-2020"
 
 ### So you want to start testing your code? Good choice. Testing is a great way to make sure nothing breaks in deployment, and Jenkins makes it easy to automate this process.
 
-![card](/media/jenkins-in-docker-and-tests-inside-own-container/card.jpeg)
+![card](/images/jenkins-in-docker-and-tests-inside-own-container/card.jpeg)
 
 In this tutorial you will learn how to set up Jenkins, so it runs inside a Docker container, and test your projects inside their own container. This is useful if you want to test your application in its own custom environment, isolated from Jenkins.
 
-![illustration](/media/jenkins-in-docker-and-tests-inside-own-container/illustration.jpeg)
+![illustration](/images/jenkins-in-docker-and-tests-inside-own-container/illustration.jpeg)
 
 **Why run Jenkins in a Docker container?**
 
@@ -136,7 +136,7 @@ We are now going to create the pipeline that will build our Docker image and run
 - Put in your git repository.
 - Add the path to your Jenkinsfile
 
-![pipeline image](/media/jenkins-in-docker-and-tests-inside-own-container/pipeline.jpeg)
+![pipeline image](/images/jenkins-in-docker-and-tests-inside-own-container/pipeline.jpeg)
 
 Now we should be good to go. When we ask Jenkins to build our app, it will clone our repository and execute our Jenkinsfile.
 

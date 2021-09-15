@@ -15,7 +15,7 @@ The first thing I did was to read the entire Wikipedia page on UNIX. I also read
 
 For the project, I decided to try and write my first C program. Following the Unix philosophy, I made sure that it did one thing only. That thing ended up being a program that reverses the contents of a text file. Since this is just a reverse version of _cat_, I called the program _recat_.
 
-![](/media/10-things-linux/1_UNIX__Recat/screenshot.png)
+![](/images/10-things-linux/1_UNIX__Recat/screenshot.png)
 
 ## 2. What is a shell? - [SeaShell](https://github.com/carltheperson/10-Things-Linux/tree/master/2_What_is_a_shell__SeaShell)
 
@@ -23,7 +23,7 @@ For this project, I was curious to find out what exactly a shell was. Even thoug
 
 Since this project is about the shell, I found it appropriate to try and write my own. I settled on the name _SeaShell_, which I found way too funny. It’s not very advanced, but it does the job.
 
-![](/media/10-things-linux/2_What_is_a_shell__SeaShell/screenshot.png)
+![](/images/10-things-linux/2_What_is_a_shell__SeaShell/screenshot.png)
 
 ## 3. Ownership and permissions - [Tellaccess](https://github.com/carltheperson/10-Things-Linux/tree/master/3_Ownership_and_permissions__Tellaccess)
 
@@ -33,7 +33,7 @@ The ownership and permission system turned out to be really intuitive, and I was
 
 For the project, I decided to create a program that tells you in human-readable form, the ownership and permissions of a file. I called the project _tellaccess_ because it tells you who can access the file in what ways.
 
-![](/media/10-things-linux/3_Ownership_and_permissions__Tellaccess/screenshot.png)
+![](/images/10-things-linux/3_Ownership_and_permissions__Tellaccess/screenshot.png)
 
 ## 4. Grep - [Grep detective](https://github.com/carltheperson/10-Things-Linux/tree/master/4_Grep__Grep_detective)
 
@@ -41,7 +41,7 @@ Grep is the sort of UNIX magic I have always wanted to learn. Since _grep_ is al
 
 For the project, I thought that a fun idea might be to create a detective game. In the game, you get a folder full of files, and it’s your job to extract information. I called the game _Grep detective_.
 
-![](/media/10-things-linux/4_Grep__Grep_detective/screenshot.png)
+![](/images/10-things-linux/4_Grep__Grep_detective/screenshot.png)
 
 ## 5. Awk and sed - [Passwdinfo](https://github.com/carltheperson/10-Things-Linux/tree/master/5_Awk_and_sed__Passwdinfo)
 
@@ -49,7 +49,7 @@ _Awk_ and _sed_ are more of the UNIX magic that I have always thought was really
 
 I primarily used [this](https://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/grep_awk_sed.pdf) paper to learn about them. For the project, I wanted to create my own one-liner that shows information about the users on your system in a clear way. I found just reading the _/etc/passwd_ a little too messy, so the project _passwdinfo_, displays the most important information in a neat table. I found information about the _/etc/passwd_ file [here](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/).
 
-![](/media/10-things-linux/5_Awk_and_sed__Passwdinfo/screenshot.png)
+![](/images/10-things-linux/5_Awk_and_sed__Passwdinfo/screenshot.png)
 
 ## 6. Find - [Find treasure hunt](https://github.com/carltheperson/10-Things-Linux/tree/master/6_Find__Find_treasure_hunt)
 
@@ -57,7 +57,7 @@ Another important tool I never really got around to learning. Learning how to us
 
 For the project, I created a treasure hunt where you look for clues in files with different attributes. I first wrote a script that created a bunch of small files and directories as noise. Then a selected few of the files got clues to the whereabouts of the other ones. In the end, you find the treasure, which I won’t tell you what is.
 
-![](/media/10-things-linux/6_Find__Find_treasure_hunt/screenshot.png)
+![](/images/10-things-linux/6_Find__Find_treasure_hunt/screenshot.png)
 
 ## 7. File system - [Root tour](https://github.com/carltheperson/10-Things-Linux/tree/master/7_File_system__Root_tour)
 
@@ -65,7 +65,7 @@ Ever since I executed my first _ls /_ I have wondered what all those directories
 
 The project ended up being a program that gives you descriptions for directories in your own root folder.
 
-![](/media/10-things-linux/7_File_system__Root_tour/screenshot.png)
+![](/images/10-things-linux/7_File_system__Root_tour/screenshot.png)
 
 ## 8. Processes - [Stranger danger](https://github.com/carltheperson/10-Things-Linux/tree/master/8_Processes__Stranger_danger)
 
@@ -73,7 +73,7 @@ Processes are another important element of Linux that I have never gotten around
 
 I was contemplating for a while what kind of project I could create but ultimately came up with a command that prints all processes that don’t belong to you or root. That way, you can keep a close eye on who is creating processes. Note, there are many legitimate reasons that other users would run processes on your system, and it rarely means someone has gained access to your computer.
 
-![](/media/10-things-linux/8_Processes__Stranger_danger/screenshot.png)
+![](/images/10-things-linux/8_Processes__Stranger_danger/screenshot.png)
 
 ## 9. Systemd services - [Createservice](https://github.com/carltheperson/10-Things-Linux/tree/master/9_Systemd_services__Createservice)
 
@@ -83,7 +83,7 @@ For understanding the basics of _systemd_ I read [this](https://www.digitalocean
 
 For the project, I made _createservice_, which allows you to make a _systemd_ service from any executable that will automatically start up on boot. Here I test it out on Prometheus:
 
-![](/media/10-things-linux/9_Systemd_services__Createservice/screenshot.png)
+![](/images/10-things-linux/9_Systemd_services__Createservice/screenshot.png)
 
 ## 10. Bash scripting - [Penguin cipher](https://github.com/carltheperson/10-Things-Linux/tree/master/10_Bash_scripting__Penguin_cipher)
 
@@ -93,4 +93,4 @@ Bash scripting is something I have been avoiding for a long time. Partly because
 
 The project ended up being a cipher program I called _Penguin cipher_ after Linux’s mascot. It allows you to encrypt text into something like this: _MTExIDIxMSAzMTMgNDAyIDQ2OCA0NjQgMTU5IDI0MSAyMzAgMzY3IDM3NCA1MjYgMTM3IDIyMiAyOTUgMzYzIDQzNCA0MzUg_
 
-![](/media/10-things-linux/10_Bash_scripting__Penguin_cipher/screenshot.png)
+![](/images/10-things-linux/10_Bash_scripting__Penguin_cipher/screenshot.png)
