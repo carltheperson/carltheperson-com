@@ -97,7 +97,7 @@ This design pattern was fairly new to me and I was confused about where to put t
 File structure:
 
 ```text
-mvc-architechture/
+mvc-architecture/
 ├─ views/
 ├─ controllers/
 ├─ models/
