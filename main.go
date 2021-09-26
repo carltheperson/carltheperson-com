@@ -56,6 +56,10 @@ func copyCodeFormatting() {
 	Copy("./templates/code-formatting/prism.js", "./build/prism.js")
 }
 
+func copyFont() {
+	Copy("./templates/fonts/SourceSerifPro-Regular.ttf", "./build/SourceSerifPro-Regular.ttf")
+}
+
 func main() {
 
 	fmt.Println("Creating home page")
@@ -70,4 +74,7 @@ func main() {
 
 	fmt.Println("Copying code formatter")
 	copyCodeFormatting()
+
+	fmt.Println("Copying font")
+	copyFont()
 }
