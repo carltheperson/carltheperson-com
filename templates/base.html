@@ -24,7 +24,6 @@
     <script src="/prism.js"></script>
   </body>
   <style>
-    /* @import url("/SourceSerifPro-Regular.ttf"); */
     @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 
     body {
@@ -62,9 +61,50 @@
       margin-bottom: 10px;
     }
 
+    blockquote {
+      text-align: center;
+      margin: 10px 5px;
+      padding: 5px 10px;
+      background-color: #fdf6e37a;
+    }
+
+    blockquote p {
+      margin: 0;
+    }
+
     @media only screen and (min-width: 800px) {
       img {
-        max-width: 750px !important;
+        max-width: 750px;
+      }
+    }
+
+    @media (min-width: 3000px) {
+      body {
+        font-size: 25px;
+      }
+
+      .reader {
+        min-width: 1000px;
+      }
+    }
+
+    @media (max-width: 1500px) {
+      .reader {
+        max-width: 600px;
+      }
+
+      img {
+        max-width: 550px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .reader {
+        max-width: 99vw;
+      }
+
+      img {
+        max-width: 90vw;
       }
     }
 
