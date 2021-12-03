@@ -1,4 +1,15 @@
-{{template "base" .}} {{define "title"}}{{.Title}}{{end}} {{define "main"}}
+{{template "base" .}} {{define "title"}}{{.Title}}{{end}}
+{{define "ogTags"}}
+<meta property="og:title" content="{{.Title}}" /> 
+    <meta
+      property="og:image"
+      content="{{.CoverImage.Url}}"
+    />
+    <meta property="og:image:width" content="{{.CoverImage.Width}}" />
+    <meta property="og:image:height" content="{{.CoverImage.Height}}" />
+    <meta property="og:site_name" content="carltheperson" />
+ {{end}}
+{{define "main"}}
 
 <div class="reader">
 	<div>
@@ -41,31 +52,23 @@
       <div id="canvas-container" style="margin-bottom: 50px;"></div>
       <script>
         function setup() {
-          let myCanvas = createCanvas(600, 400);
+          let myCanvas = createCanvas(Math.min(600, window.innerWidth - 10), 400);
           background("#fdf6e3a1")
           myCanvas.parent('canvas-container');
         }
-
         let size = 10
         let isStarted = false
-
-
         function mousePressed() {
           size *= 0.75
         }
-
         function draw() {
           if (!isStarted) {
             return
           }
-          
-            
           fill(60, 120,120)
-            
           ellipse(mouseX, mouseY, size, size);
           size += 0.1
       }
-
       document.getElementById("button").addEventListener("click", () => {
           document.getElementById("secret").style = ""
           document.getElementById("correct-message").scrollIntoView()

@@ -57,6 +57,9 @@ func getMetadataField(source string, fieldName string) string {
 		panic(err)
 	}
 	metaData := meta.Get(context)
+	if metaData[fieldName] == nil {
+		return ""
+	}
 	return fmt.Sprintf("%v", metaData[fieldName])
 }
 
