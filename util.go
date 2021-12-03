@@ -14,6 +14,7 @@ import (
 )
 
 const buildDir = "build"
+const dateLayout = "1-2-2006"
 
 func ensureDir(fileName string) {
 	dirName := filepath.Dir(fileName)
@@ -56,12 +57,14 @@ func getMetadataField(source string, fieldName string) string {
 		panic(err)
 	}
 	metaData := meta.Get(context)
+	if metaData[fieldName] == nil {
+		return ""
+	}
 	return fmt.Sprintf("%v", metaData[fieldName])
 }
 
 func getUnixTimeFromDateString(date string) int64 {
-	layout := "1-2-2006"
-	t, err := time.Parse(layout, date)
+	t, err := time.Parse(dateLayout, date)
 	if err != nil {
 		panic(err)
 	}

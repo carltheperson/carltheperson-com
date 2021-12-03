@@ -6,12 +6,7 @@ import (
 	"text/template"
 )
 
-func createHomePage() {
-	t, err := template.ParseFiles("./templates/home.html", "./templates/base.html")
-	if err != nil {
-		panic(err)
-	}
-
+func getArticlesSortedByDate() []Article {
 	articles := getArticles()
 
 	sort.Slice(articles, func(i, j int) bool {
@@ -20,6 +15,17 @@ func createHomePage() {
 
 		return unixI > unixJ
 	})
+
+	return articles
+}
+
+func createHomePage() {
+	t, err := template.ParseFiles("./templates/home.html", "./templates/base.html")
+	if err != nil {
+		panic(err)
+	}
+
+	articles := getArticlesSortedByDate()
 
 	err = createBuildFileUsingTemplate(t, "index.html", articles)
 	if err != nil {
@@ -61,7 +67,6 @@ func copyFont() {
 }
 
 func main() {
-
 	fmt.Println("Creating home page")
 	createHomePage()
 
@@ -77,4 +82,7 @@ func main() {
 
 	fmt.Println("Copying font")
 	copyFont()
+
+	fmt.Println("Creating RSS feed file")
+	createRssFeedFile()
 }

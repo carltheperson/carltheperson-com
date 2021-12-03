@@ -7,11 +7,47 @@ import (
 	"github.com/gomarkdown/markdown"
 )
 
+type CoverImageInfo struct {
+	Url    string
+	Width  string
+	Height string
+}
+
 type Article struct {
 	Title       string
 	Date        string
 	UrlName     string
 	HtmlContent string
+	CoverImage  CoverImageInfo
+}
+
+const (
+	defaultCoverImageUrl    = "https://carltheperson.com/images/big-favicon.png"
+	defaultCoverImageWidth  = "205"
+	defaultCoverImageHeight = "205"
+)
+
+func getCoverImageInfo(articleSource string) CoverImageInfo {
+	info := CoverImageInfo{}
+	imageUrl := getMetadataField(articleSource, "coverImageUrl")
+	if imageUrl == "" {
+		info.Url = defaultCoverImageUrl
+	} else {
+		info.Url = "https://carltheperson.com/images" + imageUrl
+	}
+	imageWidth := getMetadataField(articleSource, "coverImageWidth")
+	if imageWidth == "" {
+		info.Width = defaultCoverImageWidth
+	} else {
+		info.Width = imageWidth
+	}
+	imageHeight := getMetadataField(articleSource, "coverImageHeight")
+	if imageHeight == "" {
+		info.Height = defaultCoverImageHeight
+	} else {
+		info.Height = imageHeight
+	}
+	return info
 }
 
 func getArticles() []Article {
@@ -45,6 +81,7 @@ func getArticles() []Article {
 			Date:        getMetadataField(source, "date"),
 			HtmlContent: string(output),
 			UrlName:     strings.Split(fileName, ".")[0],
+			CoverImage:  getCoverImageInfo(source),
 		}
 		articles = append(articles, article)
 	}
