@@ -1,6 +1,9 @@
 ---
 title: "On courage"
 date: "12-2-2021"
+coverImageUrl: "/images/on-courage/og-cover.jpg"
+coverImageWidth: "500"
+coverImageHeight: "375"
 ---
 
 ![Me reading the book in some random Swedish forest](/images/on-courage/cover.jpg)
