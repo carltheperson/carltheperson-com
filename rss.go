@@ -38,5 +38,11 @@ func createRssFeedFile() {
 	fullPath := filepath.Join(buildDir, "feeds.xml")
 	ensureDir(fullPath)
 
-	os.WriteFile(fullPath, []byte(feed), 0644)
+	file, err := os.Create(fullPath)
+	if err != nil {
+		return
+	}
+	defer file.Close()
+
+	file.WriteString(feed)
 }
