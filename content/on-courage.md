@@ -8,13 +8,13 @@ coverImageHeight: "375"
 
 ![Me reading the book in some random Swedish forest](/images/on-courage/cover.jpg)
 
-I recently read the book "Courage is calling" by Ryan Holiday. It is the first of a series of books he is writing about the four stoic virtues. The book is full of stories about history's most courageous men and women. It's a fantastic book that I highly recommend.
+I recently read the book "Courage Is Calling" by Ryan Holiday. It is the first of a series of books he is writing about the four stoic virtues. The book is full of stories about history's most courageous men and women. It's a fantastic book that I highly recommend.
 
 Any quote not marked otherwise is by Ryan Holiday. The rest is a mix of points from the book and my own opinions.
 
 ## What is courage
 
-The book starts with a story about Florence Nightingale, born in 1820. She came from a wealthy and indolent family, but quite early in her life, she felt a calling to do something more meaningful than what was expected of women like her. She kept ignoring it and lived a very dull and underwhelming life for many years. She was finally, however, able to summon enough courage to follow her calling to help the sick. She ended up being the founder of modern nursing and lived a life of great devotion and meaning. She ignored her calling for so many years because her parents considered it unbecoming of a woman with her social status to work with patients in a hospital.
+The book starts with a story about Florence Nightingale, born in 1820. She came from a wealthy and indolent family. Quite early in her life, she felt a calling to do something more meaningful than what was expected of women like her. She kept ignoring it and lived a very dull and underwhelming life for many years. She was finally, however, able to summon enough courage to follow her calling to help the sick. She ended up being the founder of modern nursing and lived a life of great devotion and meaning. She ignored her calling for so many years because her parents considered it unbecoming of a woman with her social status to work with patients in a hospital.
 Her mother cried because her daughter wanted to "disgrace herself" to such work, and her father raged at her for being spoiled and ungrateful. Despite what they thought, she followed her calling and got to fulfill her dream and more.
 
 Courage is being able to follow what you believe is right despite what others say or think. Fear will always try to stop you from unleashing your potential. Florence Nightingale would later famously write:
@@ -30,7 +30,7 @@ Besides, by enduring hardship and risk, you naturally cut away the large majorit
 
 > _It's good that it's hard. It deters the cowards and it intrigues the courageous._
 
-Courage is about being able to take a leap of faith into the unknown. You won't always be in a situation where the outcome of your actions will be certain. To do anything innovative or worthwhile, you need to be able to leap. As Holiday writes on page 54:
+Courage is about being able to take a leap of faith into the unknown. You won't always be in a situation where the outcome of your actions will be certain. To do anything innovative or worthwhile, you need to be able to leap. As Holiday writes:
 
 > _No one can tell you that your plan will succeed. No one can tell you what their answer to your question will be. No one can guarantee you'll make it home alive. They can't even tell you how far down the hole goes._
 
@@ -45,7 +45,7 @@ As Ryan Holiday puts it:
 
 Your courage must have a purpose.
 
-Holiday writes about Lord Cardigan. He commanded the charge of the Light Brigade, where six hundred British cavalries were sent against Russian forces. It was a brave but insanely pointless attack that resulted in many British casualties. After the incident, he refused to take any responsibility or blame for the outcome. This is in all sense of the word cowardice. As Holiday writes, "_You decided to go. Now you have to own what happens. No excuses. No exceptions._"
+In the book, Holiday writes about Lord Cardigan. He commanded the charge of the Light Brigade, where six hundred British cavalries were sent against Russian forces. It was a brave but insanely pointless attack that resulted in many British casualties. After the incident, he refused to take any responsibility or blame for the outcome. This is in all sense of the word cowardice. As Holiday writes, "_You decided to go. Now you have to own what happens. No excuses. No exceptions._"
 
 To give your bravery a purpose, you must take responsibility.
 
@@ -73,7 +73,7 @@ Fuck what others think.
 
 ## Doing is another story
 
-A few months ago, I read "The little book of stoicism" by Jonas Salzgeber. It was an absolutely amazing book that I really enjoyed reading. While reading it, I carefully considered the points and wrote a lot of notes. The book's logic made a lot of sense to me, and it included a lot of action points. To my surprise, it was surprisingly difficult for me to carry them out in practice. I much preferred sitting at home reading about stoic practices than actually incorporating them.
+A few months ago, I read "The Little Book of Stoicism" by Jonas Salzgeber. It was an absolutely amazing book that I really enjoyed reading. While reading it, I carefully considered the points and wrote a lot of notes. The book's logic made a lot of sense to me, and it included a lot of action points. To my surprise, it was surprisingly difficult for me to carry them out in practice. I much preferred sitting at home reading about stoic practices than actually incorporating them.
 
 > _Words don't matter. Deeds do._
 
@@ -85,7 +85,7 @@ I dropped out of high school when I was 19 and moved to Sweden to work at my sof
 
 Up until fairly recently, I was a very anonymous person online. I wasn't sharing anything about who I really was. I wanted people to follow me and enjoy my content, but I wasn't willing to share what makes me *me*. I was afraid of judgment because of my young age and purposeful lack of education. I was scared to be considered unprofessional because of my silly projects and odd humor.
 
-But I fully stand by who I am and the choices I have made to become who I am. So I have committed myself to never be afraid to express that. I won't let fear deter me. I won't settle.
+But I fully stand by who I am and my choices to become who I am. So I have committed myself to never be afraid to express that. I won't let fear deter me. I won't settle.
 
 From now on, I will be much more open and genuine about what I put up online.
 
