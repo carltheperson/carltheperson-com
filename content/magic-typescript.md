@@ -1,6 +1,9 @@
 ---
 title: "Making a magical TypeScript cheat sheet"
 date: "12-19-2021"
+coverImageUrl: "/images/magic-typescript/cover.png"
+coverImageWidth: "931"
+coverImageHeight: "464"
 ---
 
 I recently made a pretty big TypeScript cheat sheet called _“Magic TypeScript: A cheat sheet of TypeScript’s most important/magic features”_. This post covers the backstory behind it.
