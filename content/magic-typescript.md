@@ -59,4 +59,4 @@ I, of course, also made sure to include lots of code examples, which I think are
 
 ## Who is this sheet for?
 
-Short answer, everyone. Longer answer, you should probably have some initial knowledge of TypeScript programming to get the most out of it. Reason being that I don’t go into the very basics like JavaScript vs TypeScript, compiling, or running. Learning a new programming language with a cheat sheet also sounds like a very bad idea. You have to take your time.
+Short answer, anyone. Longer answer, you should probably have some initial knowledge of TypeScript programming to get the most out of it. Reason being that I don’t go into the very basics like JavaScript vs TypeScript, compiling, or running. Learning a new programming language with a cheat sheet also sounds like a very bad idea. You have to take your time.
