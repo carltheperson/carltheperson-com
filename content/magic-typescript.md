@@ -22,7 +22,7 @@ type AtLeast<T, K extends keyof T> = Partial<T> & Pick<T, K>;
 
 Why does it work? I had no idea. To me, this was magic. If I wanted to create a complicated type that was not already on Stack Overflow, I was lost.
 
-That’s when I decided to read “Effective TypeScript” by Dan Vanderkam, a great book that I recommend any TypeScript-interested person to read. It gave me a really solid foundation for TypeScript concepts. But the book was more about TypeScript programming as a whole and not so good if you just want a very quick overview/refresher for a certain syntax. So I decided to create my ideal TypeScript quick-reference.
+That’s when I decided to read [“Effective TypeScript” by Dan Vanderkam](https://www.amazon.com/Effective-TypeScript-Specific-Ways-Improve/dp/1492053740/), a great book that I recommend any TypeScript-interested person to read. It gave me a really solid foundation for TypeScript concepts. But the book was more about TypeScript programming as a whole and not so good if you just want a very quick overview/refresher for a certain syntax. So I decided to create my ideal TypeScript quick-reference.
 
 ## Making the sheet
 
