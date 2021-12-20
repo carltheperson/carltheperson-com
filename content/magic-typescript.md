@@ -30,6 +30,8 @@ I started by mapping out every subject I wanted to cover. I then, for each subje
 
 Why did I create it as one big sheet and not multiple PDF pages? To me, zooming in and exploring a large image can be a more fun way to delve into content like this. Of course, that unfortunately makes it much harder to print on paper if that’s something you fancy.
 
+_Update: I have also put out a simple document version, that you can find in the [GitHub repository](https://github.com/carltheperson/magic-typescript)_.
+
 ## What I put in the sheet
 
 The cheat sheet starts off with what I believe is the most important concept of TypeScript. That types are sets of values. I then describe when you can use a type in place of another.
