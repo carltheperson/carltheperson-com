@@ -49,6 +49,10 @@ func createArticlePages() {
 	}
 }
 
+func copyStyles() {
+	Copy("./templates/style.css", "./build/style.css")
+}
+
 func copyImages() {
 	CopyDirectory("./content/images", "./build/images")
 }
@@ -82,6 +86,9 @@ func main() {
 
 	fmt.Println("Copying font")
 	copyFont()
+
+	fmt.Println("Copying stylesheet")
+	copyStyles()
 
 	fmt.Println("Creating RSS feed file")
 	createRssFeedFile()

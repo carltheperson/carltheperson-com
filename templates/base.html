@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{template "title" .}}</title>
+    <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/prism.css" />
     {{template "ogTags" .}}
     <script>
@@ -13,96 +14,6 @@
     </script>
   </head>
   <body>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
-
-      body {
-        font-family: "Source Serif Pro", serif;
-        font-size: 20px;
-        padding: 0;
-        margin: 0;
-      }
-
-      h1 {
-        margin-top: 5px;
-        text-align: center;
-      }
-
-      .reader {
-        max-width: 800px;
-        margin: auto;
-        word-wrap: break-word;
-        padding: 15px;
-      }
-
-      a {
-        color: rgb(0, 33, 41);
-      }
-
-      img {
-        max-width: 90vw;
-        max-height: 800px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      li {
-        margin-bottom: 10px;
-      }
-
-      blockquote {
-        text-align: center;
-        margin: 10px 5px;
-        padding: 5px 10px;
-        background-color: #fdf6e37a;
-      }
-
-      blockquote p {
-        margin: 0;
-      }
-
-      @media only screen and (min-width: 800px) {
-        img {
-          max-width: 750px;
-        }
-      }
-
-      @media (min-width: 3000px) {
-        body {
-          font-size: 25px;
-        }
-
-        .reader {
-          min-width: 1000px;
-        }
-      }
-
-      @media (max-width: 1500px) {
-        .reader {
-          max-width: 600px;
-        }
-
-        img {
-          max-width: 550px;
-        }
-      }
-
-      @media (max-width: 800px) {
-        .reader {
-          max-width: 99vw;
-        }
-
-        img {
-          max-width: 90vw;
-        }
-      }
-
-      code[class*="language-"],
-      pre[class*="language-"] {
-        font-size: 16px;
-      }
-    </style>
     {{template "main" .}}
     <script src="/prism.js"></script>
   </body>
