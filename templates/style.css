@@ -12,6 +12,10 @@ h1 {
 	text-align: center;
 }
 
+h4 {
+	margin-bottom: -5px;
+}
+
 .reader {
 	max-width: 800px;
 	margin: auto;
@@ -48,7 +52,7 @@ blockquote p {
 
 @media only screen and (min-width: 800px) {
 	img {
-		max-width: 750px;
+		max-width: 800px;
 	}
 }
 
