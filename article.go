@@ -19,6 +19,7 @@ type Article struct {
 	UrlName     string
 	HtmlContent string
 	CoverImage  CoverImageInfo
+	IsUnlisted  bool
 }
 
 const (
@@ -79,6 +80,7 @@ func getArticles() []Article {
 		article := Article{
 			Title:       getMetadataField(source, "title"),
 			Date:        getMetadataField(source, "date"),
+			IsUnlisted:  getMetadataField(source, "unlisted") == "true",
 			HtmlContent: string(output),
 			UrlName:     strings.Split(fileName, ".")[0],
 			CoverImage:  getCoverImageInfo(source),

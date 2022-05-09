@@ -15,25 +15,23 @@
   <div style="text-align: center; opacity: 0.75;">
    <a href="https://github.com/carltheperson">GitHub</a>, <a href="https://twitter.com/carltheperson">Twitter</a>, <a href="https://www.linkedin.com/in/carltheperson/">LinkedIn</a>, <a href="https://www.youtube.com/channel/UCL409jgB9Lt87x5BKxnDpsQ">YouTube</a>, <a href="/feeds.xml">RSS</a>
   </div>
-
   <p style="margin-bottom: 2px; margin-top: 30px"><b>Carl Riis</b></p>
   <p style="margin-top: 10px">
 Hello! I’m Carl. I’m a 19-year-old high school dropout and software engineer working at <a href="https://depict.ai">Depict.ai</a>. I spend my time between Stockholm, Sweden, and Odense, Denmark.  </p>
-
   <h2>Posts:</h2>
-
   <ul>
     {{range $val := .}}
+
+    {{if not $val.IsUnlisted}}
 
     <li style="padding-bottom: 5px">
       <a href="/posts/{{$val.UrlName}}"
         >{{$val.Title}} - <i>{{$val.Date}}</i></i
       ></a>
     </li>
-
+    {{end}}
     {{end}}
   </ul>
-
   <br>
   <br>
 </div>
