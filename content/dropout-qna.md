@@ -1,8 +1,10 @@
 ---
 title: "Carl Riis Q&A"
-date: "3-05-2022"
+date: "3-5-2022"
 unlisted: "true"
 ---
+
+**Note to readers**
 
 > If you’re reading this, you likely came from the post [Why I Dropped Out of High School](/posts/why-i-dropped-out). This is a copy of the now deleted Q&A that inspired that post. Parts of this Q&A got refactored into that post, meaning these two texts share some content.
 > 
@@ -11,7 +13,7 @@ unlisted: "true"
 
 Hello! I’m Carl (known online as “carltheperson”). I’m a software engineer at Depict.ai, which provides AI-driven product recommendations for e-commerce stores. I spend my time between Stockholm, Sweden, where Depict is located, and Odense, Denmark, where I’m from, and work remotely.
 
-![A picture of me](/images/why-i-dropped-out/me.jpg)
+![A picture of me](/images/dropout-qna/me.jpg)
 
 ## Why did you learn to code?
 
@@ -54,8 +56,7 @@ Uniqueness is arguably not as important, although still something that can boost
 
 Visibility is another important aspect. Whenever you create something presentable, share it. Ideally, you create something that gains sizable attention online. This is easier said than done, however. Luckily, before dropping out, this had already happened to me. A [blog post](https://carltheperson.com/posts/10-things-linux/) of mine reached the top spot on Hacker News (this got me a new job and changed my life). Some might attribute this entirely to luck, and I agree it partly was. But I still think it signifies an important lesson to others: Don’t be afraid to show the world what you make.
 
-<img src="/images/why-i-dropped-out/hn.jpg" alt="My blog post on Hacker News" style="max-width: 375px">
-
+<img src="/images/dropout-qna/hn.jpg" alt="My blog post on Hacker News" style="max-width: 375px">
 
 An important thing to note about proof: Once you have an interview, it’s less about the proof of your abilities and more about your actual abilities, which definitely should be your biggest prioritization.
 
