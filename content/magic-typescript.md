@@ -1,5 +1,5 @@
 ---
-title: "Making a magical TypeScript cheat sheet"
+title: "Making a Magical TypeScript Cheat Sheet"
 date: "19-12-2021"
 coverImageUrl: "/images/magic-typescript/cover.png"
 coverImageWidth: "931"

@@ -1,5 +1,5 @@
 ---
-title: "How to set up Jenkins CI in Docker Container & Run Your Tests Inside Their Own Container"
+title: "How to Set up Jenkins CI In Docker Container & Run Your Tests Inside Their Own Container"
 date: "3-5-2020"
 ---
 

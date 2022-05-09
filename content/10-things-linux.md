@@ -1,5 +1,5 @@
 ---
-title: "Getting better at Linux with 10 mini-projects"
+title: "Getting Better at Linux With 10 Mini-Projects"
 date: "28-11-2020"
 ---
 

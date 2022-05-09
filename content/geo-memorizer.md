@@ -1,5 +1,5 @@
 ---
-title: "Making a game to memorize facts about every country"
+title: "Making a Game to Memorize facts about every country"
 date: "6-11-2021"
 ---
 

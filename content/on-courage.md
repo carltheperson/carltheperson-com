@@ -1,5 +1,5 @@
 ---
-title: "On courage"
+title: "On Courage"
 date: "2-12-2021"
 coverImageUrl: "/images/on-courage/og-cover.jpg"
 coverImageWidth: "500"
