@@ -1,6 +1,6 @@
 ---
 title: "Making a magical TypeScript cheat sheet"
-date: "12-19-2021"
+date: "19-12-2021"
 coverImageUrl: "/images/magic-typescript/cover.png"
 coverImageWidth: "931"
 coverImageHeight: "464"

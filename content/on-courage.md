@@ -1,6 +1,6 @@
 ---
 title: "On courage"
-date: "12-2-2021"
+date: "2-12-2021"
 coverImageUrl: "/images/on-courage/og-cover.jpg"
 coverImageWidth: "500"
 coverImageHeight: "375"
