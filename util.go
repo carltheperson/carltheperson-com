@@ -14,7 +14,7 @@ import (
 )
 
 const buildDir = "build"
-const dateLayout = "1-2-2006"
+const dateLayout = "2-1-2006"
 
 func ensureDir(fileName string) {
 	dirName := filepath.Dir(fileName)
