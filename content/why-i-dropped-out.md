@@ -1,6 +1,9 @@
 ---
 title: "Why I Dropped Out of High School"
 date: "9-5-2022"
+coverImageUrl: "/images/why-i-dropped-out/me.jpg"
+coverImageWidth: "649"
+coverImageHeight: "865"
 ---
 
 A discussion has been brewing for a long time about computer science degrees in the tech industry. Specifically, If a CS degree is necessary to be a good and “successful” software engineer and if companies should require them. Many young people today are wondering whether to pursue a CS degree or perhaps drop out of college.
