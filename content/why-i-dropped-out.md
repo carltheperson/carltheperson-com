@@ -67,7 +67,7 @@ As much as I would love to present myself as a fearless hacker, that’s not the
 
 The first thing I tried was to put off this decision for some time. I tried this by requesting a year-long break from my high school. This would have been a safer way to “drop out” since I could regret my decision without much consequence. Unfortunately, my high school wouldn’t allow me to do that. It had to be all or nothing.
 
-The second thing I did was research my options if I regretted my decision years down the line. I had to do this because, admittedly, I can’t predict my future desires and regrets. I discovered that I could use the two years I had already completed as building blocks in flexible education programs for adults. Meaning the years I had already put into high school weren’t lost. I made sure to request official copies of my exam grades.  
+The second thing I did was research my options if I regretted my decision years down the line. I had to do this because, admittedly, I can’t predict my future desires and regrets. I discovered that I could use the two high school years I had already completed as building blocks in flexible education programs for adults. Meaning the time I had already put into high school wasn’t lost. I made sure to request official copies of my exam grades.
 
 My last precaution was my job. At the time of dropping out, I had already been working full-time for half a year (my job was remote with flexible hours). I knew that I had good job security and an income that could support me. 
 
@@ -77,7 +77,7 @@ Another thing that explains my decision is my relationship with self-teaching. I
 
 I didn’t thrive too much in a traditional classroom. I was performing quite well by objective measures, but I wasn’t happy. Other people setting the pace for me and telling me what/how to learn stresses me out. When you feel like that, four years of extra school can seem quite overwhelming.
 
-In an education setting, this is something you’re told to just endure. There are no doubt millions of young people who are currently feeling how I did, but who are forced to tolerate it because they have no other options. I had other options though; I knew I could happily sustain myself without a degree. Why would I endure when I can thrive?
+In an education setting, this is something you’re told to just endure. There are no doubt millions of young people who are currently feeling how I did but who are forced to tolerate it because they have no other options. I had other options, though; I knew I could happily sustain myself without a degree. Why would I endure when I can thrive?
 
 ## Reflections since dropping out
 
