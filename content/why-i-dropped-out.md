@@ -52,7 +52,7 @@ The main value of this proof is to get interviews. This later became much less o
 
 My main strategy to combat this was to create lots of stuff and share it online. That way, there would be a public record of the software I was able to produce. It would also increase the likelihood of future employers reaching out to me. This strategy proved successful; 6 months before dropping out, a [blog post](https://carltheperson.com/posts/10-things-linux/) of mine reached the top spot on Hacker News.
 
-<img src="/images/dropout-qna/hn.jpg" alt="My blog post on Hacker News" style="max-width: 375px">
+<img src="/images/why-i-dropped-out/hn.jpg" alt="My blog post on Hacker News" style="max-width: 375px">
 
 This felt amazing, but more importantly, it got me the connections that led to my first full-time job. 
 

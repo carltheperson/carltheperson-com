@@ -34,7 +34,7 @@ func getCoverImageInfo(articleSource string) CoverImageInfo {
 	if imageUrl == "" {
 		info.Url = defaultCoverImageUrl
 	} else {
-		info.Url = "https://carltheperson.com/images" + imageUrl
+		info.Url = "https://carltheperson.com" + imageUrl
 	}
 	imageWidth := getMetadataField(articleSource, "coverImageWidth")
 	if imageWidth == "" {
