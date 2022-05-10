@@ -46,7 +46,7 @@ Regarding self-discipline, I doubt many people will claim that university provid
 
 ### Proof
 
-Another value I saw in a CS degree was as proof. A CS degree acts as evidence of relevant CS knowledge and enough self-discipline to follow through on a hard goal. From an employer’s perspective, this is very important. Without a CS degree, the challenge is to prove these same things. I thought it was possible, although not as straightforward.
+Another value I saw in a CS degree was as proof. A CS degree acts as evidence of relevant CS knowledge and enough self-discipline to follow through on a hard goal. From an employer’s perspective, this is very important. The challenge then, without a CS degree, is to prove these same things. I thought it was possible, although not as straightforward.
 
 The main value of this proof is to get interviews. This later became much less of a concern for me, but at the time was something that made me quite nervous. What if I become without a job one day and no one is willing to interview me?
 
@@ -56,9 +56,9 @@ My main strategy to combat this was to create lots of stuff and share it online.
 
 This felt amazing, but more importantly, it got me the connections that led to my first full-time job. 
 
-Another strategy of mine was to create a personal brand of sorts. My thinking was that if I played into the role of a high school dropout and embraced it, it would become less of a hindrance to me. When used correctly, I could even leverage it to stand out.
+Another strategy of mine was to create a personal brand of sorts. My thinking was, if I played into the role of a high school dropout and embraced it, it would become less of a hindrance to me. When used correctly, I could even leverage it to stand out.
 
-It’s also important to note that I could also leverage my existing work experience as proof. As time passes, this becomes something I can lean on more and more.
+It’s also important to note that I could leverage my existing work experience as proof. As time passes, this becomes something I can lean on more and more.
 
 #### Fear
 
