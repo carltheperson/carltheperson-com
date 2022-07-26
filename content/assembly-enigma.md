@@ -59,7 +59,7 @@ The above image illustrates some of the magic of Enigma. Typing a letter produce
 
 If you’re curious about what the code for this program looks like, here is a little taste:
 
-```
+```txt
 start_indexing:
 	CLC
 index1: ; --- Take typed char and get placement on rotor1 with offset.
