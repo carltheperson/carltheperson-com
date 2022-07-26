@@ -19,7 +19,7 @@ So here I was. I had decided to learn assembly, but I still needed a first proje
 
 I had my eureka moment in a museum in Berlin where they had a real Enigma Machine on display. How hard could it be if they made it all using wheels and wires? It obviously wouldn’t be easy, but it seemed somewhat doable.
 
-<img src="/images/assembly-enigma/enigma-image.jpg" alt="Enigma Machine image" style="max-width: 400px">
+<img src="/images/assembly-enigma/enigma-image.jpg" alt="Enigma Machine image" style="max-width: min(400px, 90vw)">
 
 ## Learning assembly
 
