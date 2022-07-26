@@ -31,7 +31,7 @@ At this point, I was ready to jump in, but I needed a place to start. I found my
 
 ![Reddit answer](/images/assembly-enigma/reddit.png)
 
-I really liked this Redditor’s suggestion of learning 6502 assembly using an emulator. I watched Ben Eater’s playlist where he plays with the 6502 microprocessor. This could open the possibility of running my own programs on real 6502 hardware some day.
+I really liked this Redditor’s suggestion of learning 6502 assembly using an emulator. I had just watched Ben Eater’s playlist where he plays with the 6502 microprocessor. This could open the possibility of running my own programs on real 6502 hardware some day.
 
 The first real assembly resource I used was Andrew Blance’s “[Learning Assembly](https://codeburst.io/an-introduction-to-6502-assembly-and-low-level-programming-7c11fa6b9cb9)” series. It covers things like binary number representation, architecture of the 6502 microprocessor, and of course, writing 6502 assembly. It was a really nice introduction and fairly comprehensive. I kept coming back to re-read parts of it.
 
