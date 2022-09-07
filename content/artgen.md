@@ -5,7 +5,7 @@ date: "7-9-2022"
 
 I recently decided to learn the C programming language. The process of learning a new programming skill is nothing new to me: consume some resources and make some projects. Many people (myself included) struggle with the latter, though, the projects. Doing is essential for learning, but how do you decide what to do?
 
-I think you can categorize common advice about projects into two groups; the first is “create something useful to you”. The second is “create something simple (_cough_ boring) like a todo app”.
+I think you can categorize common advice about projects into two groups; the first is “create something useful to you”. The second is “create something simple (\*cough\* boring) like a todo app”.
 
 I don’t really have a problem with the first advice about creating something useful. It’s not always feasible, though. What can I possibly make as an initial project that will have real-world value to me? Most of what I find useful is quite complicated or already made. If you have an idea for a simple, useful project, then that’s ideal. These types of projects are rare, however, at least for me.
 
