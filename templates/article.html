@@ -13,20 +13,19 @@
 
 <div class="reader">
 	<div>
-		<a style="float: left; width: 100%; margin-bottom: 30px;" href="/"><-- carltheperson.com</a>
+		<a id="exit-link" href="/"><span id="exit"></span> carltheperson.com</a>
 	</div>
-  <br>
-  <div style="background-color: #fdf6e3a1">
+  <div id="title-cover">
     <h1>{{.Title}}</h1>
     <p style="color: rgb(66, 66, 66);text-align: center;padding-bottom: 10px;">
-      <i>{{.Date}} Carl Riis</i>
+      {{.Date}} Carl Riis
     </p>
   </div>
 
   {{.HtmlContent}}
 
   <br>
-  <hr />
+  <hr style="border-style: double;" />
 
   <p style="text-align: center">
     Check out my <a href="https://github.com/carltheperson">GitHub</a>, <a href="https://twitter.com/carltheperson">Twitter</a>, and <a href="https://www.linkedin.com/in/carltheperson/">LinkedIn</a>
@@ -41,7 +40,7 @@
   </p>
 
 
-  <div style="text-align: center; margin-top: 75px">
+  <div style="text-align: center; margin-top: 40px">
   <input placeholder="Secret password" style="opacity: 0.75;" /><button id="button" style="opacity: 0.75;">Confirm password</button>
   <div id="secret" style="display: none;">
     <div style="margin-top: 50px;">

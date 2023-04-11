@@ -1,101 +1,172 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 
 body {
-	font-family: "Source Serif Pro", serif;
-	font-size: 20px;
-	padding: 0;
-	margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+
+  background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(128, 128, 128, 0.2) 1px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle at 3px 3px,
+      rgba(128, 128, 128, 0.2) 1px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle at 6px 6px,
+      rgba(128, 128, 128, 0.2) 2px,
+      transparent 2px
+    ),
+    radial-gradient(
+      circle at 9px 9px,
+      rgba(128, 128, 128, 0.2) 2px,
+      transparent 2px
+    );
+  background-size: 12px 12px, 12px 12px, 24px 24px, 24px 24px;
+  background-position: 0 0, 6px 6px, 0 0, 12px 12px;
+}
+
+#exit::before {
+  content: " ";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("/images/exit.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  right: -2px;
+}
+
+#documents-icon::before {
+  content: " ";
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-image: url("/images/documents.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 h1 {
-	margin-top: 5px;
-	text-align: center;
+  margin-top: 5px;
+  text-align: center;
 }
 
-h2,h3, h4 {
-	margin-bottom: -5px;
+h2,
+h3,
+h4 {
+  margin-bottom: -5px;
 }
 
 .reader {
-	max-width: 800px;
-	margin: auto;
-	word-wrap: break-word;
-	padding: 15px;
+  max-width: 800px;
+  margin: auto;
+  word-wrap: break-word;
+  padding: 15px;
+  background: white;
+  border: 5px double black;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 a {
-	color: rgb(0, 33, 41);
+  color: black;
 }
 
 img {
-	max-width: 90vw;
-	max-height: 800px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 90vw;
+  max-height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 blockquote {
-	text-align: center;
-	margin: 10px 5px;
-	padding: 5px 10px;
-	background-color: #fdf6e37a;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 5px 10px;
+  background-color: #fdf6e37a;
 }
 
 blockquote p {
-	margin: 0;
+  margin: 0;
 }
 
 @media only screen and (min-width: 800px) {
-	img {
-		max-width: 800px;
-	}
+  img {
+    max-width: 800px;
+  }
 }
 
 @media (min-width: 3000px) {
-	body {
-		font-size: 25px;
-	}
+  body {
+    font-size: 25px;
+  }
 
-	.reader {
-		min-width: 1000px;
-	}
+  .reader {
+    min-width: 1000px;
+  }
 }
 
 @media (max-width: 1500px) {
-	.reader {
-		max-width: 600px;
-	}
+  .reader {
+    max-width: 600px;
+  }
 
-	img {
-		max-width: 600px;
-	}
+  img {
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 800px) {
-	.reader {
-		max-width: 99vw;
-	}
+  .reader {
+    max-width: 99vw;
+    margin: 3px;
+  }
 
-	img {
-		max-width: 90vw;
-	}
+  img {
+    max-width: 90vw;
+  }
 }
 
 code[class*="language-"],
 pre[class*="language-"] {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 #pillar {
-	width: 350px;
-	margin: 0 0 0 auto;
-	opacity: 0.75;
+  width: 350px;
+  margin: 0 0 0 auto;
+  opacity: 0.75;
 }
 .reader {
-	min-height: calc(100vh - 295px);
+  min-height: calc(100vh - 295px);
+  position: relative;
+}
+
+#exit-link {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 3.5px;
+}
+
+#title-cover {
+  background-color: #fdf6e3a1;
+  padding-top: 15px;
+  margin-top: 10px;
 }
