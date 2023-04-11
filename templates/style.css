@@ -155,7 +155,6 @@ pre[class*="language-"] {
   opacity: 0.75;
 }
 .reader {
-  min-height: calc(100vh - 295px);
   position: relative;
 }
 
