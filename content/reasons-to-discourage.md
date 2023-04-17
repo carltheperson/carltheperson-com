@@ -1,5 +1,5 @@
 ---
-title: "Reasons to Discourage You from Trying"
+title: "Factors That Limit You"
 date: "17-3-2023"
 ---
 
