@@ -80,13 +80,13 @@ Deciding which decisions are worth investing extra time in, is a guessing game. 
 
 ## Advice 5: Work now not later
 
-When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. 
+When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, . A general rule of thumb is that it's better to work now, not later.
 
-Of course, there are times when it's fully resonable to stop working early. 
+If you're going to cheat, decide ahead of time. Tell yourself, "I'll only work 45 minutes more", not "The work I started 45 minutes ago is enough, I'm quitting now". Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
 
-Stoping work to relax feels much more satisfying when you know it's fully justified.
+Stoping work to relax feels much more satisfying when you know it's fully justified and planned.
 
-If you're going to cheat, decide ahead of time. Tell yourself, "I'll only work 45 minutes more, "
+---
 
 
 
