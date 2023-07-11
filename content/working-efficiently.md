@@ -107,11 +107,22 @@ Stoping work to relax feels much more satisfying, when you know it's fully justi
 
 ---
 
-there is no concrete task, Bob asks his boss, he tells him, study this etc. 
+Bob gathers his strength and prepares himself to take on a last task. He can't find a good task in FeatherTrack's task-managament-system, so he messages his boss. He's told that there isn't anything easy to pick up, and to just study some of the FeatherTrack codebase instead.
+
+Bob is slightly confused by this vauqe task description. It doesn't fit neatly into his list, since it doesn't have a clear definition of done. The FeatherTrack codebase is enormous and not possible to study fully in one day.
 
 ## Advice 6: Time-define boundless tasks
 
+This is an extension of Advice 1 and 5 about keeping a list and planning ahead. It's for those of you who decide to keep a daily list of stuff to do, but who gets stumped by tasks that don't have a clear end in the near future.
 
+The solution to this issue is very simple, boundless tasks are defined by time, not scope. Ideally, smaller chunks (max one hour).
+
+A typical example of a list from my personal life can look like this:
+
+```
+[ ] Write 1hr
+[ ] 
+```
 
 ---
 
