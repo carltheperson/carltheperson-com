@@ -89,23 +89,25 @@ He knows the designer often takes long to respond to messages. Maybe it's best t
 
 A lot of working time is spent re-doing old work because it was done wrongly. This is in many cases unavoidable, but sometimes it's easily preventable with some extra consideration.
 
-Especially when encountering dilemmas, we tend to be overly opimistic in our ability to predict the future. This causes us to take shortcuts in the form of hasty descions. Avoiding the trouble of getting more clarity. But facing a hard dilemma now, is much better than later on, when it inevitably will come into question again.
+Especially when encountering dilemmas, we tend to be overly opimistic in our ability to predict the future. This causes us to take shortcuts in the form of hasty descions, avoiding the trouble of getting more clarity. But facing a hard dilemma now, is much better than later on, when it inevitably will come into question again.
 
 ---
 
 Bob calls the designer to ask how the button should work/look for already retired pigeons. He learns that pigeons *can* be un-retired, and the designer sends over some new designs for him to implement.
 
-After implementing the button, Bob is tired. He knows he should finsih another task, but at this point, he'd much rather rest. He considers stopping for now, and waking up early tomorrow to finsih the last task.
+After implementing the button, Bob is tired. He knows he should finish another task, but at this point, he'd much rather rest. He considers stopping for now, and waking up early tomorrow to finsih the last task.
 
 ## Advice 5: Work now not later
 
 When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, you convince yourself to quit, when it's smarter to push on some more. Putting off work can risk it piling up, which leads to more stress. A general rule of thumb is that it's better to work now, not later. 
 
-Ideally, to avoid procastination you shouldn't let yourself stop working without planning in when advance. Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
+Ideally, to avoid procastination you shouldn't let yourself stop working without planning when in advance. Planning ahead also solves the complication of breaks. Breaks are necessary, but they should be planned, e.g. 10 minutes every hour.
 
 Stoping work to relax feels much more satisfying, when you know it's fully justified and planned.
 
 ---
+
+there is no concrete task, Bob asks his boss, he tells him, study this etc. 
 
 ## Advice 6: Time-define boundless tasks
 
