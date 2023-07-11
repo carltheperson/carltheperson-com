@@ -67,28 +67,53 @@ Distancing yourself from your own sittuation can help. Ask yourself, "What would
 
 Bob decides to call the coworker that gave him the task. It takes a while, but eventually he understands everything that was asked of him, and with a little extra help and time, he completes the task. 
 
-Feeling the momentium from completing the last task, Bob decides to pick up a new one. This time 
+Feeling the momentium from completing the last task, Bob decides to pick up a new one. The available task he finds is to create a button on FeatherTrack's website where pigeon managers can mark a race-pigeon as being retired.
+
+Bob realizes that he doesn't quite understand how the website connects to the rest of the system. Suddenly, he gets the briliant idea of doing a deep-dive into all FeatherTrack's systems, figuring out how they each connect to each other. This would take a while, but would make the button task easier.
 
 ## Advice 3: Take the straightest path
 
-## Advice 4: Face the inevitable
+This might be a tendency specific to me and Bob, but we tend to overprepare for a task instead of jumping straight into it. This is a form of procrastination that disguise itself as preparedness.
 
+Doing open-ended research into your area of work is a really good idea, but not when you have a specific thing you're trying to accomplish. You risk spending valuable time teaching yourself concepts that don't apply to what you're trying to do. And while these concepts might become useful later, this is not guaranteed.
+
+When you have the time, I highly recommend diving into rabbit holes, but when you have a concrete goal, it's best to take the straightest path.
+
+---
+
+only the systems relevant to the button.
+
+In the designs for the button ... icon
+
+## Advice 4: Face the inevitable
 
 A lot of working time is spent re-doing old work because it was done wrongly. And while it doesn't make sense to overanalize *every* possible desicion, some desicions are worth taking the time to make now, not later. Often, you already know which desicions these are. It's the shortcuts you feel bad for taking.
 
 Deciding which decisions are worth investing extra time in, is a guessing game. It's weighing time now against theoretical time in the future. But with a bit of extra consideration, it's possible to increase your ability to do this.
 
+---
+
 ## Advice 5: Work now not later
 
-When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, . A general rule of thumb is that it's better to work now, not later.
+When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, you convince yourself to quit, when it's better to push on some more. A general rule of thumb is that it's better to work now, not later.
 
-If you're going to cheat, decide ahead of time. Tell yourself, "I'll only work 45 minutes more", not "The work I started 45 minutes ago is enough, I'm quitting now". Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
+If you're going to cheat, decide ahead of time. Tell yourself, "I'll work 45 minutes more", not "The work I started 45 minutes ago is enough, I'm quitting now". Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
 
-Stoping work to relax feels much more satisfying when you know it's fully justified and planned.
+Stoping work to relax feels much more satisfying, when you know it's fully justified and planned.
 
 ---
 
+## Advice 6: Time-define boundless tasks
 
+
+
+---
+
+## Advice 7: Have a brutal growth mindset 
+
+
+
+---
 
 - Bob gets a new task
 	- ""
@@ -99,7 +124,7 @@ Stoping work to relax feels much more satisfying when you know it's fully justif
 - He doesn't, and instead asks the designer.
 - He has one task left, he considers doing it the text day and relaxing now.
 - "Work now not later"
- 
+
 
 - Advice 3: Take the straightest path
 - Advice 4: Face the inevitable
