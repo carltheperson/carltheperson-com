@@ -75,29 +75,33 @@ Bob realizes that he doesn't quite understand how the website connects to the re
 
 This might be a tendency specific to me and Bob, but we tend to overprepare for a task instead of jumping straight into it. This is a form of procrastination that disguise itself as preparedness.
 
-Doing open-ended research into your area of work is a really good idea, but not when you have a specific thing you're trying to accomplish. You risk spending valuable time teaching yourself concepts that don't apply to what you're trying to do. And while these concepts might become useful later, this is not guaranteed.
+Doing open-ended research into your area of work is a good idea, but not when you have a specific thing you're trying to accomplish. You risk spending valuable time teaching yourself concepts that don't apply to what you need. And while these concepts might become useful later, this is not guaranteed.
 
 When you have the time, I highly recommend diving into rabbit holes, but when you have a concrete goal, it's best to take the straightest path.
 
 ---
 
-only the systems relevant to the button.
+Bob decides to research only the systems relevant to the button, and starts making solid progress, when he suddenly encounters a dilemma. The designs he's using are incomplete. It's very clear how the button should look for a non-retired pigeon, but what if a pigeon is *already* retired? Should it be possible to un-retire a pigeon? If so, how should *that* button look? This is unclear to Bob. 
 
-In the designs for the button ... icon
+He knows the designer often takes long to respond to messages. Maybe it's best to just make an educated guess about the button, so he can finish his task quicker?
 
-## Advice 4: Face the inevitable
+## Advice 4: Face the inevitable now
 
-A lot of working time is spent re-doing old work because it was done wrongly. And while it doesn't make sense to overanalize *every* possible desicion, some desicions are worth taking the time to make now, not later. Often, you already know which desicions these are. It's the shortcuts you feel bad for taking.
+A lot of working time is spent re-doing old work because it was done wrongly. This is in many cases unavoidable, but sometimes it's easily preventable with some extra consideration.
 
-Deciding which decisions are worth investing extra time in, is a guessing game. It's weighing time now against theoretical time in the future. But with a bit of extra consideration, it's possible to increase your ability to do this.
+Especially when encountering dilemmas, we tend to be overly opimistic in our ability to predict the future. This causes us to take shortcuts in the form of hasty descions. Avoiding the trouble of getting more clarity. But facing a hard dilemma now, is much better than later on, when it inevitably will come into question again.
 
 ---
 
+Bob calls the designer to ask how the button should work/look for already retired pigeons. He learns that pigeons *can* be un-retired, and the designer sends over some new designs for him to implement.
+
+After implementing the button, Bob is tired. He knows he should finsih another task, but at this point, he'd much rather rest. He considers stopping for now, and waking up early tomorrow to finsih the last task.
+
 ## Advice 5: Work now not later
 
-When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, you convince yourself to quit, when it's better to push on some more. A general rule of thumb is that it's better to work now, not later.
+When doing something difficult, it's far too easy convincing yourself that it would be better to work later rather than now. Of course, there are times when it's fully resonable push off work to rest early, but often, you convince yourself to quit, when it's smarter to push on some more. Putting off work can risk it piling up, which leads to more stress. A general rule of thumb is that it's better to work now, not later. 
 
-If you're going to cheat, decide ahead of time. Tell yourself, "I'll work 45 minutes more", not "The work I started 45 minutes ago is enough, I'm quitting now". Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
+Ideally, to avoid procastination you shouldn't let yourself stop working without planning in when advance. Planning ahead also solves the complication of breaks. Breaks are necessary, but to avoid the risk of procrastination, they should be planned, e.g. 10 minutes every hour.
 
 Stoping work to relax feels much more satisfying, when you know it's fully justified and planned.
 
@@ -110,6 +114,10 @@ Stoping work to relax feels much more satisfying, when you know it's fully justi
 ---
 
 ## Advice 7: Have a brutal growth mindset 
+
+I have to tread a fine line here between useful advice and obscure self-help nonsense.
+
+"Growth mindset" is often thrown around by anyoing people as a simple solution to guaranteed success.
 
 
 
