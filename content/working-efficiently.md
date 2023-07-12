@@ -1,18 +1,11 @@
 ---
-title: "How to Work Efficiently"
+title: "A Story of Working Efficiently"
 date: "22-6-2023"
 ---
 
-
-
-# Something 
-
 For me, working inefficiently means not working at all, and working efficiently means being able to keep working in the face of distractions, uncertainty, low motivation, etc. The goal is to keep up your momentum. That sounds easy to do in theory: just keep working, but reality is messy, and messiness gets in the way of momentum.
 
-I want this guide to be ultra practical. Often, guides and advice like this ignore the more messy parts of reality to be more straight-forward. My strategy to avoid this is to invent a fake person (Bob), who we will be following in his work day.
-
-Throughout Bob's workday, I will present tangible advice that he can use to overcome his work related obstacles. 
-
+I want this guide to be ultra practical. Often, guides and advice like this ignore the more messy parts of reality to be more straight-forward. My strategy to avoid this is to invent a fake person (Bob), who we will be following today. Throughout Bob's workday, I will present tangible advice that he can use to overcome his work related obstacles. 
 
 ## Meet Bob
 
@@ -133,9 +126,11 @@ The task to "code 2 hours today" is split into two 1 hour tasks. This is to make
 
 ---
 
-He thinks about his future at FeatherTrack, his carreer, and his personal development in general. He has a lot he wants to achive, but he can't help but think he isn't cut out for it. His coworkers seem to be a special breed of people, that got to where they are because of some secret sauce that Bob doens't posses. 
+Bob decides to study the FeatherTrack codebase for an hour, then finally declare his tasks for the day done.
 
-## Advice 7: Have a brutal growth mindset 
+Having reached the end of his workday, Bob can't help but reflect on his future at FeatherTrack, his carreer, and his personal development in general. He has a lot he wants to achive, but he can't help but think he isn't cut out for it. His coworkers seem to be a special breed of people, that got to where they are because of some secret sauce that Bob doens't posses. Maybe it's best to accept that his ambsioutions won't lead to anything?
+
+## Advice 7: Adopt a growth mindset 
 
 "Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some [scientific sources](https://msutoday.msu.edu/news/2018/study-finds-popular-growth-mindset-educational-interventions-arent-very-effective) even questions its effecicy, which is a discussion I won't get into, instead, I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
 
@@ -145,72 +140,7 @@ The opisite of a growth mindset is the "Fixed mindset". This is the belief that 
 
 A fixed mindset is often rooted in how we view other's success. When someone has achived something impressive, the easy and romantasied answer is that they must have some special ability. This convienient explanation avoids us having to reflect inwards, and accept that the answer is grounded in hard work. In realility, success isn't found in special high-IQ high-talent people, it's found in people who are able to make consistent progress towards new challenges they haven't been able to complete before. People who gravitate towards challenges despite the failures and embarresments that doing so brings.
 
-// In my opinion, a good growth mindset includes not being affriad of being emberassed. You'll get much further if you do things out of inherent interest, not to impress or seak approval from others. Adopting a growth mindset therefore becomes about freeing yourself both from the limitations you put onto yourself, but also the ones other's put onto you.
-
-
-http://www.madmath.com/2021/10/growth-mindset-theory-failures-to.html
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8299535/
-https://msutoday.msu.edu/news/2018/study-finds-popular-growth-mindset-educational-interventions-arent-very-effective
-https://www.researchgate.net/publication/337856605_A_Simple_Re-Analysis_Overturns_a_Failure_to_Replicate_and_Highlights_an_Opportunity_to_Improve_Scientific_Practice_Commentary_on_Li_and_Bates_2019
-
-
-
-
 ---
 
-- Bob gets a new task
-	- ""
-- He gets the urge to learn everything
-- He learns only the relevant stuff
-- There is some ambaguity in the designs. A major thing. Like two options 
-- He considers just picking an option to get done faster
-- He doesn't, and instead asks the designer.
-- He has one task left, he considers doing it the text day and relaxing now.
-- "Work now not later"
 
 
-- Advice 3: Take the straightest path
-- Advice 4: Face the inevitable
-- Advice 5: Work now not later
-
-
-New:
-- Have a brutal growth mindset
-- Time-define boundless tasks
-
-
-
-
-FeatherTrack tech:
-
-- Each Pigeon has an id, the PID
-- The RaceRanker has the real-time aspect
-- AppSiteV3 is the UI
-
-
-
-
-
-Walk before you can run. Or something like that.
-
-
-
-- Keep a list
-- There is always something you can do
-    - Map out what you can control vs what you can’t
-- Work now not later
-- Intimidation is often a source of procrastinating
-- Don’t get hung up on details
-- Ask for help
-    - Often calling someone up is the most time efficient thing to do
-    - Don’t be afraid to be a bit pushy
-
-- Perferction, can prevent you from doing a task whatever
-- Take the straightest path
-- Face the inevitable head on
-
-Bob 
-
-Scenarios:
-
--
