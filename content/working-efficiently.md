@@ -137,23 +137,15 @@ He thinks about his future at FeatherTrack, his carreer, and his personal develo
 
 ## Advice 7: Have a brutal growth mindset 
 
-"Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some scientific sources even questions its effecicy, which is a discussion I won't get into, instead, I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
+"Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some [scientific sources](https://msutoday.msu.edu/news/2018/study-finds-popular-growth-mindset-educational-interventions-arent-very-effective) even questions its effecicy, which is a discussion I won't get into, instead, I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
 
 A growth mindset is all about how you view challenges and your abilities. Specifically, the belief that your abilites aren't set in stone, making it possible for you to achive challenges that currently seem impossible. It's about using your common sense, but leaning heavily on the side of "I can" rather than "I can't", and a general optimism towards what you're capable of as a person, given enough time.
 
-//, espacially when it comes to overcoming obstercals that seem impossible currently.
-//Specifically, whether you tend to view new challenges as things you'll eventually be able to acheive
-//Specifically, thinking that while certain challenges might be 
-// This is opposed to the "Fixed mindset" which 
+The opisite of a growth mindset is the "Fixed mindset". This is the belief that your abilites are permenant, making it unattainable for you to achive things which currently feel impossible.
 
-The opisite of a growth mindset is the "Fixed mindset". 
+A fixed mindset is often rooted in how we view other's success. When someone has achived something impressive, the easy and romantasied answer is that they must have some special ability. This convienient explanation avoids us having to reflect inwards, and accept that the answer is grounded in hard work. In realility, success isn't found in special high-IQ high-talent people, it's found in people who are able to make consistent progress towards new challenges they haven't been able to complete before. People who gravitate towards challenges despite the failures and embarresments that doing so brings.
 
-A fixed mindset is often cemented in how we view other's success. When someone has achived something impressive, the easy and romantasied answer is that they must have some special ability. This convienient explanation 
-
-Success isn't found in special high-IQ high-talent people, it's found in people who are able to make consistent progress towards new challenges they haven't been able to complete before. People who gravitate towards challenges despite the failures and embarresments that doing so brings.
-
-
-In my opinion, a good growth mindset includes not being affriad of being emberassed. You'll get much further if you do things out of inherent interest, not to impress or seak approval from others. Adopting a growth mindset therefore becomes about freeing yourself both from the limitations you put onto yourself, but also the ones other's put onto you.
+// In my opinion, a good growth mindset includes not being affriad of being emberassed. You'll get much further if you do things out of inherent interest, not to impress or seak approval from others. Adopting a growth mindset therefore becomes about freeing yourself both from the limitations you put onto yourself, but also the ones other's put onto you.
 
 
 http://www.madmath.com/2021/10/growth-mindset-theory-failures-to.html
