@@ -91,6 +91,8 @@ A lot of working time is spent re-doing old work because it was done wrongly. Th
 
 Especially when encountering dilemmas, we tend to be overly opimistic in our ability to predict the future. This causes us to take shortcuts in the form of hasty descions, avoiding the trouble of getting more clarity. But facing a hard dilemma now, is much better than later on, when it inevitably will come into question again.
 
+Shortcuts aren't just limited to dilemmas. Anoying tasks, descions, messages etc. can all be tempting to avoid dealing with. Pushing these off almost always comes with uncomfortableconsequense in the future, which could have been avoided if dealt with upfront.
+
 ---
 
 Bob calls the designer to ask how the button should work/look for already retired pigeons. He learns that pigeons *can* be un-retired, and the designer sends over some new designs for him to implement.
@@ -117,20 +119,47 @@ This is an extension of Advice 1 and 5 about keeping a list and planning ahead. 
 
 The solution to this issue is very simple, boundless tasks are defined by time, not scope. Ideally, smaller chunks (max one hour).
 
-A typical example of a list from my personal life can look like this:
+A typical example of a list from my personal life could look like this:
 
 ```
-[ ] Write 1hr
-[ ] 
+[ ] Write 30min 
+[ ] Email insurance
+[ ] Code 1hr
+[ ] Code 1hr
+[ ] Buy food
 ```
+
+The task to "code 2 hours today" is split into two 1 hour tasks. This is to make them more manageable, and gives me a sense of accomplishment after completing each one. I, of course, aslo take a break between these hour blocks, which creates a natural [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique)-like rythem around the tasks.
 
 ---
 
+He thinks about his future at FeatherTrack, his carreer, and his personal development in general. He has a lot he wants to achive, but he can't help but think he isn't cut out for it. His coworkers seem to be a special breed of people, that got to where they are because of some secret sauce that Bob doens't posses. 
+
 ## Advice 7: Have a brutal growth mindset 
 
-I have to tread a fine line here between useful advice and obscure self-help nonsense.
+// I have to tread a fine line here between useful advice and self-help nonsense. 
 
-"Growth mindset" is often thrown around by anyoing people as a simple solution to guaranteed success.
+"Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some scientific sources even questions its effecicy, which is a discussion I won't get into, instead, I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
+
+Some scientific sources also questions its effecicy, which is a discussion I won't get into. Below I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
+
+A growth mindset is all about how you think about challenges. ... Use your common sense, but always lean heavily on the side of "I can" rather than "I can't".
+
+This is opposed to the "Fixed mindset" which 
+
+A fixed mindset is often cemented in how we view other's success. When someone has achived something impressive, the easy and romantasied answer is that they must have some special ability. This convienient explanation 
+
+Success isn't found in special high-IQ high-talent people, it's found in people who are able to make consistent progress towards new challenges they haven't been able to complete before. People who gravitate towards challenges despite the failures and embarresments that doing so brings.
+
+
+In my opinion, a good growth mindset includes not being affriad of being emberassed. You'll get much further if you do things out of inherent interest, not to impress or seak approval from others. Adopting a growth mindset therefore becomes about freeing yourself both from the limitations you put onto yourself, but also the ones other's put onto you.
+
+
+http://www.madmath.com/2021/10/growth-mindset-theory-failures-to.html
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8299535/
+https://msutoday.msu.edu/news/2018/study-finds-popular-growth-mindset-educational-interventions-arent-very-effective
+https://www.researchgate.net/publication/337856605_A_Simple_Re-Analysis_Overturns_a_Failure_to_Replicate_and_Highlights_an_Opportunity_to_Improve_Scientific_Practice_Commentary_on_Li_and_Bates_2019
+
 
 
 
