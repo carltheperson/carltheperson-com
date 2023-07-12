@@ -137,15 +137,16 @@ He thinks about his future at FeatherTrack, his carreer, and his personal develo
 
 ## Advice 7: Have a brutal growth mindset 
 
-// I have to tread a fine line here between useful advice and self-help nonsense. 
-
 "Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some scientific sources even questions its effecicy, which is a discussion I won't get into, instead, I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
 
-Some scientific sources also questions its effecicy, which is a discussion I won't get into. Below I'll present Growth mindset the way *I* see it, which I belive improved my life tremendously.
+A growth mindset is all about how you view challenges and your abilities. Specifically, the belief that your abilites aren't set in stone, making it possible for you to achive challenges that currently seem impossible. It's about using your common sense, but leaning heavily on the side of "I can" rather than "I can't", and a general optimism towards what you're capable of as a person, given enough time.
 
-A growth mindset is all about how you think about challenges. ... Use your common sense, but always lean heavily on the side of "I can" rather than "I can't".
+//, espacially when it comes to overcoming obstercals that seem impossible currently.
+//Specifically, whether you tend to view new challenges as things you'll eventually be able to acheive
+//Specifically, thinking that while certain challenges might be 
+// This is opposed to the "Fixed mindset" which 
 
-This is opposed to the "Fixed mindset" which 
+The opisite of a growth mindset is the "Fixed mindset". 
 
 A fixed mindset is often cemented in how we view other's success. When someone has achived something impressive, the easy and romantasied answer is that they must have some special ability. This convienient explanation 
 
