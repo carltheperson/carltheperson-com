@@ -10,7 +10,7 @@ coverImageHeight: "759"
 
 For me, working inefficiently means not working at all, and working efficiently means being able to keep working in the face of distractions, uncertainty, low motivation, etc. The goal is to keep up your momentum. In theory, that sounds easy to do: just keep working, but reality is messy, and messiness gets in the way of momentum.
 
-I want this guide to be ultra-practical. Often, guides and advice like this ignore the messy parts of reality to be more straightforward. My strategy to avoid this is to invent a fake person (Bob), who we will be following today. Throughout Bob's workday, I will present tangible advice that he can use to overcome his work-related obstacles. 
+I want this guide to be ultra-practical. Often, guides and advice like this ignore the messy parts of reality to be more straightforward. My strategy to combat this is to invent a fake person (Bob), who we will be following as he works. Throughout Bob's workday, I will present tangible advice that he can use to overcome his work-related obstacles. 
 
 ## Meet Bob
 
@@ -140,10 +140,12 @@ Having reached the end of his workday, Bob can't help but reflect on his future 
 
 "Growth mindset" is often thrown around by people as a simple solution to guaranteed success, it's not. Some [scientific sources](https://msutoday.msu.edu/news/2018/study-finds-popular-growth-mindset-educational-interventions-arent-very-effective) even question its efficiency, which is a discussion I won't get into; instead, I'll present Growth mindset the way *I* see it, which I believe improved my life tremendously.
 
-A growth mindset is all about how you view challenges and your abilities. Specifically, the belief that your abilities aren't set in stone, making it possible for you to achieve challenges that currently seem impossible. It's about using your common sense but leaning heavily on the side of "I can" rather than "I can't" and a general optimism towards what you're capable of as a person, given enough time.
+A growth mindset is all about how you view challenges and your abilities. Specifically, the belief that your abilities aren't set in stone, making it possible for you to achieve challenges that currently seem impossible. It's about using your common sense, but leaning heavily on the side of "I can" rather than "I can't", and a general optimism towards what you're capable of as a person, given enough time.
 
 The opposite of a growth mindset is the "Fixed mindset". This is the belief that your abilities are permanent, making it unattainable for you to achieve things that currently feel impossible.
 
 A fixed mindset is often rooted in how we view others' success. When someone has achieved something impressive, the easy and romanticized answer is that they must have some special ability. This convenient explanation avoids us having to reflect inwards and accept that the answer is grounded in hard work. In reality, success isn't found in special high-IQ high-talent people, it's found in people who are able to make consistent progress toward new challenges they haven't been able to complete before. People who gravitate towards challenges despite the failures and embarrassments that doing so brings.
 
+<hr/>
 
+Bob reflects on the future with newfound confidence. But for now, there are more important things than work. His cat Jerry needs feeding, and a new episode of Bob's favorite show just came out. He'll worry about being effective tomorrow.
