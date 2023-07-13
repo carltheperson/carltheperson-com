@@ -114,7 +114,7 @@ Bob is slightly confused by this vague task description. It doesn't fit neatly i
 
 ## Advice 6: Time-define boundless tasks
 
-This is an extension of Advice 1 and 5 about keeping a list and planning ahead. It's for those of you who decide to keep a daily list of stuff to do, but gets stumped by tasks that don't have a clear end in the near future.
+This is an extension of Advice 1 and 5 about keeping a list and planning ahead. It's for those of you who decide to keep a daily list of stuff to do, but get stumped by tasks that don't have a clear end in the near future.
 
 The solution to this issue is very simple; boundless tasks are defined by time, not scope—ideally, smaller chunks (max one hour).
 
@@ -148,4 +148,4 @@ A fixed mindset is often rooted in how we view others' success. When someone has
 
 <hr/>
 
-Bob reflects on the future with newfound confidence. But for now, there are more important things than work. His cat Jerry needs feeding, and a new episode of his favorite show just came out. He'll worry about being effective later.
+Bob reflects on the future with newfound confidence. But for now, there are more important things than work. His cat Jerry needs feeding, and a new episode of his favorite show just came out. He'll worry about being efficient later.
