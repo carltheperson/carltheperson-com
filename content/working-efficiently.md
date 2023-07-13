@@ -148,4 +148,4 @@ A fixed mindset is often rooted in how we view others' success. When someone has
 
 <hr/>
 
-Bob reflects on the future with newfound confidence. But for now, there are more important things than work. His cat Jerry needs feeding, and a new episode of Bob's favorite show just came out. He'll worry about being effective tomorrow.
+Bob reflects on the future with newfound confidence. But for now, there are more important things than work. His cat Jerry needs feeding, and a new episode of Bob's favorite show just came out. He'll worry about being effective later.
