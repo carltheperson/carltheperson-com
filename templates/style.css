@@ -169,3 +169,10 @@ pre[class*="language-"] {
   padding-top: 15px;
   margin-top: 10px;
 }
+
+hr {
+ border-style: double;
+ border-color: gray;
+}
+
+
