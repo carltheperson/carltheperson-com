@@ -1,9 +1,12 @@
 ---
 title: "A Story of Working Efficiently"
-date: "22-6-2023"
+date: "13-7-2023"
+coverImageUrl: "/images/bob/bob.png"
+coverImageWidth: "1014"
+coverImageHeight: "759"
 ---
 
-![Bob](/images/bob.png)
+![Bob](/images/bob/bob.png)
 
 For me, working inefficiently means not working at all, and working efficiently means being able to keep working in the face of distractions, uncertainty, low motivation, etc. The goal is to keep up your momentum. In theory, that sounds easy to do: just keep working, but reality is messy, and messiness gets in the way of momentum.
 
