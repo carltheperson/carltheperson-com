@@ -1,5 +1,5 @@
 ---
-title: "A Story of Working Efficiently"
+title: "A Fictional Story of Working Efficiently"
 date: "13-7-2023"
 coverImageUrl: "/images/bob/bob.png"
 coverImageWidth: "1014"
