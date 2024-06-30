@@ -31,7 +31,7 @@ Here we finally have a limiter that is beyond your control, the world. The world
 
 ## Conclusion
 
-A very small amount of your intent of effort actually gets converted into usable realized effort. A reasonable, understandable response to this is to lie down and cry. Another approach is to push on regardless.
+A very small amount of your intent of effort actually gets converted into usable realized effort. A reasonable, understandable response to this is to get very frustrated. Another approach is to push on regardless.
 
 This is, oddly enough, one of the most important skills to acquire as a human - realizing the odds are stacked against you but trying anyway.
 
