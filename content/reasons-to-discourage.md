@@ -1,6 +1,6 @@
 ---
 title: "Factors That Limit You"
-date: "17-3-2023"
+date: "2023-03-17"
 ---
 
 It’s a thinking kind of evening. The kind for making up your own mental models and pretending you’ve discovered universal truths. I highly recommend it.

@@ -1,6 +1,6 @@
 ---
 title: "A Fictional Story of Working Efficiently"
-date: "13-7-2023"
+date: "2023-07-13"
 coverImageUrl: "/images/bob/bob.png"
 coverImageWidth: "1014"
 coverImageHeight: "759"

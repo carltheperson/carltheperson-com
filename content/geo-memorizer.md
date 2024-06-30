@@ -1,6 +1,6 @@
 ---
 title: "Making a Game to Memorize facts about every country"
-date: "6-11-2021"
+date: "2021-11-06"
 ---
 
 ![Image of game](/images/geo-memorizer/cover.png)

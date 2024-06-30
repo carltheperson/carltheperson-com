@@ -1,6 +1,6 @@
 ---
 title: "An Underrated Way To Learn Programming: Generative Art"
-date: "7-9-2022"
+date: "2022-09-07"
 ---
 
 I recently decided to learn the C programming language. The process of learning a new programming skill is nothing new to me: consume some resources and make some projects. Many people (myself included) struggle with the latter, though, the projects. Doing is essential for learning, but how do you decide what to do?

@@ -1,6 +1,6 @@
 ---
 title: "Why I Dropped Out of High School"
-date: "9-5-2022"
+date: "2022-05-09"
 coverImageUrl: "/images/why-i-dropped-out/me.jpg"
 coverImageWidth: "649"
 coverImageHeight: "865"

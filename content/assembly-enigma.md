@@ -1,6 +1,6 @@
 ---
 title: "Writing an Enigma Machine in 6502 Assembly"
-date: "26-7-2022"
+date: "2022-07-26"
 ---
 
 I recently decided to challenge myself by creating the infamous [Enigma Machine](https://en.wikipedia.org/wiki/Enigma_machine) in 6502 assembly. This was the first project I wrote using assembly, and this post describes the tools/resources I used to do it.

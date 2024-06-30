@@ -1,6 +1,6 @@
 ---
 title: "My House"
-date: "31-8-2021"
+date: "2021-08-31"
 ---
 
 On the 19th of August 2019, I bought a house with a small garden. The house is what in English apparently is called an _allotment._ Basically, a small slot meant for vegetable gardening which sometimes has a house or shed. Not really meant for living in. But after nearly a year of work, I moved into mine. It's legal as long as I don't live there all year round (I skip out on the winters). Price for the slot was 5,500$ which for a 17-year old was a pretty big investment. The cost for all the materials needed to make it liveable was about the same.

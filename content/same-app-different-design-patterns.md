@@ -1,6 +1,6 @@
 ---
 title: "Same App Different Design Patterns"
-date: "19-9-2021"
+date: "2021-09-19"
 ---
 
 ### What's the best way to learn software design patterns well? I think it's by implementing them, so I created the same app using four different design patterns

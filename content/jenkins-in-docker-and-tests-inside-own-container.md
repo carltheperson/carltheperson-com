@@ -1,6 +1,6 @@
 ---
 title: "How to Set up Jenkins CI In Docker Container & Run Your Tests Inside Their Own Container"
-date: "3-5-2020"
+date: "2020-05-03"
 ---
 
 ### So you want to start testing your code? Good choice. Testing is a great way to make sure nothing breaks in deployment, and Jenkins makes it easy to automate this process.
