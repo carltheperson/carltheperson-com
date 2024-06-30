@@ -1,20 +1,17 @@
 {{template "base" .}} {{define "title"}}{{.Title}}{{end}}
 {{define "ogTags"}}
-<meta property="og:title" content="{{.Title}}" /> 
-    <meta
-      property="og:image"
-      content="{{.CoverImage.Url}}"
-    />
-    <meta property="og:image:width" content="{{.CoverImage.Width}}" />
-    <meta property="og:image:height" content="{{.CoverImage.Height}}" />
-    <meta property="og:site_name" content="carltheperson" />
- {{end}}
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:image" content="{{.CoverImage.Url}}" />
+<meta property="og:image:width" content="{{.CoverImage.Width}}" />
+<meta property="og:image:height" content="{{.CoverImage.Height}}" />
+<meta property="og:site_name" content="carltheperson" />
+{{end}}
 {{define "main"}}
 
 <div class="reader">
-	<div>
-		<a id="exit-link" href="/"><span id="exit"></span> carltheperson.com</a>
-	</div>
+  <div>
+    <a id="exit-link" href="/"><span id="exit"></span> carltheperson.com</a>
+  </div>
   <div id="title-cover">
     <h1>{{.Title}}</h1>
     <p style="color: rgb(66, 66, 66);text-align: center;padding-bottom: 10px;">
@@ -26,64 +23,62 @@
 
   <br>
   <hr style="border-style: double;border-color: black;" />
-
-  <p style="text-align: center">
-    Check out my <a href="https://github.com/carltheperson">GitHub</a>, <a href="https://twitter.com/carltheperson">Twitter</a>, and <a href="https://www.linkedin.com/in/carltheperson/">LinkedIn</a>
-
-    <p style="text-align: center; height: 22px;" id="email"></p>
-      <script>
-        setTimeout(() => {
-          document.getElementById("email").innerHTML = "Email me: <a href=\"mailto: carltheperson" + "" + "@" + "protonmail.com\">carltheperson" + "" + "@" + "protonmail.com</a>";
-        }, 1500);
-      </script>
+  <p style="text-align: center; height: 22px; opacity: 0.75;" id="email"></p>
+  <script>
+    setTimeout(() => {
+      document.getElementById("email").innerHTML = "Email me: <a href=\"mailto: carltheperson" + "" + String.fromCharCode(63 + 1) + "protonmail.com\">carltheperson" + "" + String.fromCharCode(64) + "protonmail.com</a>";
+    }, 1500);
+  </script>
 
   </p>
 
 
-  <div style="text-align: center; margin-top: 40px">
-  <input placeholder="Secret password" style="opacity: 0.75;" /><button id="button" style="opacity: 0.75;">Confirm password</button>
-  <div id="secret" style="display: none;">
-    <div style="margin-top: 50px;">
-    <div id="correct-message">
-      <h2>Password is correct</h2>
+  <div style="text-align: center;">
+    <input placeholder="Secret password" style="opacity: 0.75; margin-right: 3px;" /><button id="button"
+      style="opacity: 0.75;">Confirm
+      password</button>
+    <div id="secret" style="display: none;">
+      <div style="margin-top: 50px;">
+        <div id="correct-message">
+          <h2>Password is correct</h2>
+        </div>
+        <div id="actual-secret" style="display: none;">
+          <div id="canvas-container" style="margin-bottom: 50px;"></div>
+          <script>
+            function setup() {
+              let myCanvas = createCanvas(Math.min(600, window.innerWidth - 10), 400);
+              background("#fdf6e3a1")
+              myCanvas.parent('canvas-container');
+            }
+            let size = 10
+            let isStarted = false
+            function mousePressed() {
+              size *= 0.75
+            }
+            function draw() {
+              if (!isStarted) {
+                return
+              }
+              fill(60, 120, 120)
+              ellipse(mouseX, mouseY, size, size);
+              size += 0.1
+            }
+            document.getElementById("button").addEventListener("click", () => {
+              document.getElementById("secret").style = ""
+              document.getElementById("correct-message").scrollIntoView()
+              const element = document.createElement("script")
+              element.src = "https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"
+              document.getElementsByTagName('head')[0].append(element)
+              setTimeout(() => {
+                document.getElementById("correct-message").style = "display: none"
+                document.getElementById("actual-secret").style = ""
+                isStarted = true
+              }, 3000)
+            })
+          </script>
+        </div>
+      </div>
     </div>
-    <div id="actual-secret" style="display: none;">
-      <div id="canvas-container" style="margin-bottom: 50px;"></div>
-      <script>
-        function setup() {
-          let myCanvas = createCanvas(Math.min(600, window.innerWidth - 10), 400);
-          background("#fdf6e3a1")
-          myCanvas.parent('canvas-container');
-        }
-        let size = 10
-        let isStarted = false
-        function mousePressed() {
-          size *= 0.75
-        }
-        function draw() {
-          if (!isStarted) {
-            return
-          }
-          fill(60, 120,120)
-          ellipse(mouseX, mouseY, size, size);
-          size += 0.1
-      }
-      document.getElementById("button").addEventListener("click", () => {
-          document.getElementById("secret").style = ""
-          document.getElementById("correct-message").scrollIntoView()
-          const element = document.createElement("script")
-          element.src = "https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"
-          document.getElementsByTagName('head')[0].append(element)
-          setTimeout(() => {
-            document.getElementById("correct-message").style = "display: none"
-            document.getElementById("actual-secret").style = ""
-            isStarted = true
-          }, 3000)
-      })
-      </script>
-    </div>
-    </div>
-  </div>
   </div>
 </div>
 

@@ -6,26 +6,18 @@ body {
   padding: 0;
   margin: 0;
 
-  background-image: radial-gradient(
-      circle at 1px 1px,
+  background-image: radial-gradient(circle at 1px 1px,
       rgba(128, 128, 128, 0.2) 1px,
-      transparent 1px
-    ),
-    radial-gradient(
-      circle at 3px 3px,
+      transparent 1px),
+    radial-gradient(circle at 3px 3px,
       rgba(128, 128, 128, 0.2) 1px,
-      transparent 1px
-    ),
-    radial-gradient(
-      circle at 6px 6px,
+      transparent 1px),
+    radial-gradient(circle at 6px 6px,
       rgba(128, 128, 128, 0.2) 2px,
-      transparent 2px
-    ),
-    radial-gradient(
-      circle at 9px 9px,
+      transparent 2px),
+    radial-gradient(circle at 9px 9px,
       rgba(128, 128, 128, 0.2) 2px,
-      transparent 2px
-    );
+      transparent 2px);
   background-size: 12px 12px, 12px 12px, 24px 24px, 24px 24px;
   background-position: 0 0, 6px 6px, 0 0, 12px 12px;
 }
@@ -82,6 +74,7 @@ h4 {
 
 a {
   color: black;
+  text-decoration-color: rgb(142, 142, 142);
 }
 
 img {
@@ -154,6 +147,7 @@ pre[class*="language-"] {
   margin: 0 0 0 auto;
   opacity: 0.75;
 }
+
 .reader {
   position: relative;
 }
@@ -171,8 +165,6 @@ pre[class*="language-"] {
 }
 
 hr {
- border-style: double;
- border-color: gray;
+  border-style: double;
+  border-color: gray;
 }
-
-
