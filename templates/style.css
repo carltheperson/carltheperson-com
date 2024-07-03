@@ -79,6 +79,8 @@ a {
 
 img {
   max-width: 90vw;
+  width: 100%;
+  height: auto;
   max-height: 800px;
   display: block;
   margin-left: auto;
