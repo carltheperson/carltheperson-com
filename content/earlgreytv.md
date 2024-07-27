@@ -1,6 +1,9 @@
 ---
 title: "Creating My Own Linux-Based Smart TV"
 date: "2024-07-03"
+coverImageUrl: "/images/earlgreytv/front.png"
+coverImageWidth: "800"
+coverImageHeight: "598"
 ---
 
 <img src="/images/earlgreytv/front.png" alt="Front of TV" width="800px" height="598px" />
