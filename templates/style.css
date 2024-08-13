@@ -1,25 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
-
 body {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   padding: 0;
   margin: 0;
 
-  background-image: radial-gradient(circle at 1px 1px,
-      rgba(128, 128, 128, 0.2) 1px,
-      transparent 1px),
-    radial-gradient(circle at 3px 3px,
-      rgba(128, 128, 128, 0.2) 1px,
-      transparent 1px),
-    radial-gradient(circle at 6px 6px,
-      rgba(128, 128, 128, 0.2) 2px,
-      transparent 2px),
-    radial-gradient(circle at 9px 9px,
-      rgba(128, 128, 128, 0.2) 2px,
-      transparent 2px);
-  background-size: 12px 12px, 12px 12px, 24px 24px, 24px 24px;
+  background-image: radial-gradient(circle at 1px 1px, rgba(128, 128, 128, 0.2) 1px, transparent 1px), radial-gradient(circle at 3px 3px, rgba(128, 128, 128, 0.2) 1px, transparent 1px), radial-gradient(circle at 6px 6px, rgba(128, 128, 128, 0.2) 2px, transparent 2px), radial-gradient(circle at 9px 9px, rgba(128, 128, 128, 0.2) 2px, transparent 2px);
+  background-size: 20px 12px, 12px 21px, 24px 24px, 24px 24px;
   background-position: 0 0, 6px 6px, 0 0, 12px 12px;
+  background-color: #f7efdaab;
 }
 
 #exit::before {
@@ -48,6 +36,16 @@ body {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-stretch: condensed;
 }
 
 h1 {
@@ -118,15 +116,16 @@ blockquote p {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
   .reader {
-    max-width: 600px;
+    max-width: 700px;
   }
 
   img {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
+
 
 @media (max-width: 800px) {
   .reader {
@@ -144,14 +143,9 @@ pre[class*="language-"] {
   font-size: 16px;
 }
 
-#pillar {
-  width: 350px;
-  margin: 0 0 0 auto;
-  opacity: 0.75;
-}
-
 .reader {
   position: relative;
+  box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
 }
 
 #exit-link {
@@ -161,12 +155,34 @@ pre[class*="language-"] {
 }
 
 #title-cover {
-  background-color: #fdf6e3a1;
+  background-color: #f7f1e1a1;
   padding-top: 15px;
   margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 hr {
   border-style: double;
   border-color: gray;
+}
+
+.foot-notes {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  font-size: 14px;
+}
+
+.foot-note {
+  opacity: 0.5;
+  font-size: 13px;
+  position: relative;
+  top: -3px;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+br {
+  height: 20px;
 }

@@ -22,21 +22,18 @@
   {{.HtmlContent}}
 
   <br>
-  <hr style="border-style: double;border-color: black;" />
-  <p style="text-align: center; height: 22px; opacity: 0.75;" id="email"></p>
+  <hr style="border-style: double;border-color: black; margin-bottom: 25px;" />
+  <p style="text-align: center; height: 22px; opacity: 0.75; margin: 15px 0;" id="email"></p>
   <script>
     setTimeout(() => {
-      document.getElementById("email").innerHTML = "Email me: <a href=\"mailto: carltheperson" + "" + String.fromCharCode(63 + 1) + "protonmail.com\">carltheperson" + "" + String.fromCharCode(64) + "protonmail.com</a>";
+      document.getElementById("email").innerHTML = "Email: <a href=\"mailto: carltheperson" + "" + String.fromCharCode(63 + 1) + "protonmail.com\">carltheperson" + "" + String.fromCharCode(64) + "protonmail.com</a>";
     }, 1500);
   </script>
-
-  </p>
-
-
-  <div style="text-align: center;">
-    <input placeholder="Secret password" style="opacity: 0.75; margin-right: 3px;" /><button id="button"
-      style="opacity: 0.75;">Confirm
-      password</button>
+  <div style="text-align: center; display: flex; flex-direction: column; gap: 5px; margin-top: 15px">
+    <div style="display: flex; gap: 5px; justify-content: center; opacity: 0.75">
+      <input placeholder="Secret password" /><button id="button" style="opacity: 0.75;">Confirm
+        password</button>
+    </div>
     <div id="secret" style="display: none;">
       <div style="margin-top: 50px;">
         <div id="correct-message">
