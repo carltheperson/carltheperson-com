@@ -1,6 +1,6 @@
 ---
 title: "Thoughts on How I Would Run a Startup"
-date: "2024-08-04"
+date: "2024-08-13"
 coverImageUrl: "/images/startup/startup_principles.jpg"
 coverImageWidth: "1100"
 coverImageHeight: "771"
