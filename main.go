@@ -67,7 +67,7 @@ func copyCodeFormatting() {
 }
 
 func copyFont() {
-	Copy("./templates/fonts/SourceSerifPro-Regular.ttf", "./build/SourceSerifPro-Regular.ttf")
+	Copy("./templates/fonts/RobotoMono-VariableFont_wght.ttf", "./build/RobotoMono-VariableFont_wght.ttf")
 }
 
 func main() {

@@ -1,13 +1,13 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'RobotoMono';
   font-size: 17px;
   padding: 0;
   margin: 0;
-
-  background-image: radial-gradient(circle at 1px 1px, rgba(128, 128, 128, 0.2) 1px, transparent 1px), radial-gradient(circle at 3px 3px, rgba(128, 128, 128, 0.2) 1px, transparent 1px), radial-gradient(circle at 6px 6px, rgba(128, 128, 128, 0.2) 2px, transparent 2px), radial-gradient(circle at 9px 9px, rgba(128, 128, 128, 0.2) 2px, transparent 2px);
-  background-size: 20px 12px, 12px 21px, 24px 24px, 24px 24px;
-  background-position: 0 0, 6px 6px, 0 0, 12px 12px;
-  background-color: #f7efdaab;
 }
 
 #exit::before {
@@ -60,14 +60,12 @@ h4 {
 }
 
 .reader {
-  max-width: 800px;
-  margin: auto;
+  max-width: 900px;
   word-wrap: break-word;
   padding: 15px;
-  background: white;
-  border: 2px solid black;
-  margin-top: 40px;
+  margin-top: 5px;
   margin-bottom: 40px;
+  margin-left: 5px;
 }
 
 a {
@@ -100,37 +98,12 @@ blockquote p {
   margin: 0;
 }
 
-@media only screen and (min-width: 800px) {
-  img {
-    max-width: 800px;
-  }
-}
-
-@media (min-width: 3000px) {
-  body {
-    font-size: 25px;
-  }
-
-  .reader {
-    min-width: 1000px;
-  }
-}
-
-@media (max-width: 2000px) {
-  .reader {
-    max-width: 700px;
-  }
-
-  img {
-    max-width: 700px;
-  }
-}
-
 
 @media (max-width: 800px) {
   .reader {
     max-width: 99vw;
     margin: 3px;
+    margin-left: 0;
   }
 
   img {
@@ -141,11 +114,6 @@ blockquote p {
 code[class*="language-"],
 pre[class*="language-"] {
   font-size: 16px;
-}
-
-.reader {
-  position: relative;
-  box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
 }
 
 #exit-link {
