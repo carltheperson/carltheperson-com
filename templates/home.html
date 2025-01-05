@@ -5,29 +5,36 @@
 <meta property="og:image:height" content="205" />
 <meta property="og:site_name" content="carltheperson" />
 {{end}} {{define "main"}}
-<div class="reader">
-  <h1 style="margin: 0">Carl the Person</h1>
-  <div style="text-align: center">
-    <a href="https://github.com/carltheperson">GitHub</a>,
-    <a href="https://www.linkedin.com/in/carltheperson/">LinkedIn</a>,
-    <a href="https://www.youtube.com/@carltheperson">YouTube</a>,
-    <a href="#"
-      onclick="alert('carltheperson' + String.fromCharCode(63 + 1) + 'protonmail' + '' + '.com')">Email</a>,
-    <a href="/feeds.xml">RSS</a>
+<div class="home-container">
+  <div class="bio">
+    <img height="300px" src="/images/me.jpg" alt="me" />
+    <div class="bio-text">
+      <h1 class="bio-name">Carl Riis</h1>
+      <p>Hello! I'm Carl. I'm a problem solver and like doing difficult stuff.</p>
+      <p>I've worked at various startups before moving into engineering in the public sector.</p>
+      <p>I believe openness, empathy, and kindness are essential in a problem-solving context.</p>
+    </div>
   </div>
-  <p style="margin-bottom: 2px; margin-top: 30px"><b>Carl Riis</b></p>
-  <p style="margin-top: 10px">
-    I'm Carl. I enjoy solving problems and hope to do it on a large scale someday.
-  </p>
-  <h2>Posts:</h2>
-  <ul>
-    {{range $val := .}} {{if not $val.IsUnlisted}}
+  <div>
+    Links:
+    <a href="https://github.com/carltheperson">GitHub</a>,
+    <a href="https://www.linkedin.com/in/carl-riis/">LinkedIn</a>,
+    <a href="https://www.youtube.com/@carltheperson">YouTube</a>,
+    <a href="#" onclick="alert('Always happy to talk! I read everything sent to this email: carltheperson' + String.fromCharCode(63 + 1) + 'protonmail' + '' + '.com')">Email</a>,
+    <a href="https://www.dr.dk/p3/alle-sagde-det-var-en-daarlig-ide-nu-har-20-aarige-carl-tjent-en-halv-million">Article
+      by DR (Danish)</a>
+  </div>
+  <div>
+    <h2>Posts:</h2>
+    <ul>
+      {{range $val := .}} {{if not $val.IsUnlisted}}
 
-    <li style="padding-bottom: 5px">
-      <a href="/posts/{{$val.UrlName}}">{{$val.Title}} - {{$val.Date}}</a>
-    </li>
-    {{end}} {{end}}
-  </ul>
+      <li style="padding-bottom: 5px">
+        <a href="/posts/{{$val.UrlName}}">{{$val.Title}} - {{$val.Date}}</a>
+      </li>
+      {{end}} {{end}}
+    </ul>
+  </div>
 </div>
 
 {{end}}

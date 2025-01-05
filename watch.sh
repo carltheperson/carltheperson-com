@@ -24,7 +24,7 @@ go run .
 run_static_server
 
 echo "Watching content/ for changes..."
-inotifywait -m -r -e create,close_write,delete content | while read changed_file; do
+inotifywait -m -r -e create,close_write,delete content templates | while read changed_file; do
     echo "Detected change in $changed_file, restarting Go app..."
     run_go_app
 done
