@@ -12,8 +12,17 @@
 body {
   font-family: 'RobotoMono';
   max-width: 750px;
-  margin: 0 auto;
-  margin-top: 30px;
+  padding: 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-stretch: condensed;
 }
 
 a {
@@ -21,7 +30,11 @@ a {
   color: darkblue;
 }
 
-ul {
+a, p {
+  font-size: 16px;
+}
+
+ul, ol {
   list-style-position: inside;
   margin-left: 15px;
 }
@@ -34,10 +47,10 @@ ul {
 
 .bio {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
-.bio img {
+.bio-img {
   border-radius: 10%;
 }
 
@@ -45,4 +58,135 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.reader img {
+  max-width: 90vw;
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reader p {
+  margin: 16px 0;
+}
+
+.reader h2, h3, h4, h5, h6 {
+  margin: 16px 0 0 0;
+}
+
+.reader .title-cover {
+  background-color: #f3f3f391;
+  padding: 15px 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 16px;
+}
+
+
+.secret-area {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.secret-area .input-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  opacity: 0.75;
+}
+
+.secret-area .confirm-button {
+  opacity: 0.75;
+}
+
+.secret-area .hidden {
+  display: none;
+}
+
+.secret-area .message-container {
+  margin-top: 50px;
+}
+
+.secret-area .canvas-container {
+  margin-bottom: 50px;
+}
+
+
+blockquote {
+  text-align: center;
+  margin: 10px 5px;
+  padding: 5px 10px;
+  background-color: #fdf6e37a;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+hr {
+  border-style: double;
+  border-color: gray;
+}
+
+.foot-notes {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  font-size: 14px;
+}
+
+.foot-note {
+  opacity: 0.5;
+  font-size: 13px;
+  position: relative;
+  top: -3px;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+br {
+  height: 20px;
+}
+
+/* Desktop */
+@media (min-width: 475px) {
+  body {
+    margin: 30px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 474px) {
+  body {
+    margin: 10px 0 30px 0;
+  }
+
+  .bio {
+    flex-direction: column-reverse;
+  }
+
+  .secret-area {
+    display: none;
+  }
+
+  .reader {
+    max-width: 99vw;
+    margin: 3px;
+    margin-left: 0;
+  }
+
+  .reader img {
+    max-width: 90vw;
+  }
 }
