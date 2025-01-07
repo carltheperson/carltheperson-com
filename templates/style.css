@@ -139,20 +139,23 @@ hr {
   border-color: gray;
 }
 
-.foot-notes {
+.reader .foot-notes {
   margin: 0;
   margin-top: 15px;
   margin-bottom: -15px;
-  font-size: 14px;
 }
 
-.foot-note {
+.reader .foot-note {
   opacity: 0.5;
-  font-size: 13px;
   position: relative;
   top: -3px;
+  font-size: 13px;
   text-decoration: none;
   margin-left: 4px;
+}
+
+.reader .foot-notes * {
+  font-size: 14px;
 }
 
 br {
