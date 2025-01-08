@@ -1,23 +1,17 @@
 {
-  "hosting": [
-    {
-      "site": "carltheperson",
-      "redirects": [
-        {
-          "source": "/**",
-          "destination": "https://carlriis.com/**",
-          "type": 301
-        }
-      ]
-    },
-    {
-      "site": "carlriis",
-      "public": "build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    }
-  ]
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "https://carltheperson.com/**",
+        "destination": "https://carlriis.com/**",
+        "type": 301
+      }
+    ]
+  }
 }
