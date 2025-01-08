@@ -59,6 +59,8 @@ func copyImages() {
 
 func copyFavicon() {
 	Copy("./templates/favicon.ico", "./build/favicon.ico")
+	Copy("./templates/favicon-32x32.png", "./build/favicon-32x32.png")
+	Copy("./templates/favicon-16x16.png", "./build/favicon-16x16.png")
 }
 
 func copyCodeFormatting() {

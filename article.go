@@ -23,9 +23,9 @@ type Article struct {
 }
 
 const (
-	defaultCoverImageUrl    = "https://carltheperson.com/images/big-favicon.png"
-	defaultCoverImageWidth  = "205"
-	defaultCoverImageHeight = "205"
+	defaultCoverImageUrl    = "https://carlriis.com/images/big-favicon.png"
+	defaultCoverImageWidth  = "512"
+	defaultCoverImageHeight = "512"
 )
 
 func getCoverImageInfo(articleSource string) CoverImageInfo {
@@ -34,7 +34,7 @@ func getCoverImageInfo(articleSource string) CoverImageInfo {
 	if imageUrl == "" {
 		info.Url = defaultCoverImageUrl
 	} else {
-		info.Url = "https://carltheperson.com" + imageUrl
+		info.Url = "https://carlriis.com" + imageUrl
 	}
 	imageWidth := getMetadataField(articleSource, "coverImageWidth")
 	if imageWidth == "" {

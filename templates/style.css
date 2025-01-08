@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'RobotoMono';
   src: url('/RobotoMono-VariableFont_wght.ttf') format('truetype');
@@ -5,37 +11,8 @@
 
 body {
   font-family: 'RobotoMono';
-  font-size: 17px;
-  padding: 0;
-  margin: 0;
-}
-
-#exit::before {
-  content: " ";
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-image: url("/images/exit.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  position: relative;
-  top: -2px;
-  right: -2px;
-}
-
-#documents-icon::before {
-  content: " ";
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  background-image: url("/images/documents.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  position: absolute;
-  top: 5px;
-  right: 5px;
+  max-width: 750px;
+  padding: 0 10px;
 }
 
 h1,
@@ -48,32 +25,42 @@ h6 {
   font-stretch: condensed;
 }
 
-h1 {
-  margin-top: 5px;
-  text-align: center;
-}
-
-h2,
-h3,
-h4 {
-  margin-bottom: -5px;
-}
-
-.reader {
-  max-width: 900px;
-  word-wrap: break-word;
-  padding: 15px;
-  margin-top: 5px;
-  margin-bottom: 40px;
-  margin-left: 5px;
-}
-
 a {
-  color: black;
-  text-decoration-color: rgb(63, 63, 63);
+  text-decoration: none;
+  color: darkblue;
 }
 
-img {
+a, p {
+  font-size: 16px;
+}
+
+ul, ol {
+  list-style-position: inside;
+  margin-left: 15px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bio {
+  display: flex;
+  gap: 20px;
+}
+
+.bio-img {
+  border-radius: 10%;
+}
+
+.bio .bio-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.reader img {
   max-width: 90vw;
   width: 100%;
   height: auto;
@@ -83,9 +70,58 @@ img {
   margin-right: auto;
 }
 
-li {
-  margin-bottom: 10px;
+.reader p {
+  margin: 16px 0;
 }
+
+.reader h2, h3, h4, h5, h6 {
+  margin: 16px 0 0 0;
+}
+
+.reader .title-cover {
+  background-color: #f3f3f391;
+  padding: 15px 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 16px;
+}
+
+
+.secret-area {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.secret-area .input-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  opacity: 0.75;
+}
+
+.secret-area .confirm-button {
+  opacity: 0.75;
+}
+
+.secret-area .hidden {
+  display: none;
+}
+
+.secret-area .message-container {
+  margin-top: 50px;
+}
+
+.secret-area .canvas-container {
+  margin-bottom: 50px;
+}
+
 
 blockquote {
   text-align: center;
@@ -98,59 +134,62 @@ blockquote p {
   margin: 0;
 }
 
+hr {
+  border-style: double;
+  border-color: gray;
+}
 
-@media (max-width: 800px) {
+.reader .foot-notes {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+.reader .foot-note {
+  opacity: 0.5;
+  position: relative;
+  top: -3px;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.reader .foot-notes * {
+  font-size: 14px;
+}
+
+br {
+  height: 20px;
+}
+
+/* Desktop */
+@media (min-width: 475px) {
+  body {
+    margin: 30px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 474px) {
+  body {
+    margin: 10px 0 30px 0;
+  }
+
+  .bio {
+    flex-direction: column-reverse;
+  }
+
+  .secret-area {
+    display: none;
+  }
+
   .reader {
     max-width: 99vw;
     margin: 3px;
     margin-left: 0;
   }
 
-  img {
+  .reader img {
     max-width: 90vw;
   }
-}
-
-code[class*="language-"],
-pre[class*="language-"] {
-  font-size: 16px;
-}
-
-#exit-link {
-  text-decoration: none;
-  border-bottom: 2px solid black;
-  padding-bottom: 3.5px;
-}
-
-#title-cover {
-  background-color: #f7f1e1a1;
-  padding-top: 15px;
-  margin-top: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-hr {
-  border-style: double;
-  border-color: gray;
-}
-
-.foot-notes {
-  margin: 0;
-  margin-top: 15px;
-  margin-bottom: -15px;
-  font-size: 14px;
-}
-
-.foot-note {
-  opacity: 0.5;
-  font-size: 13px;
-  position: relative;
-  top: -3px;
-  text-decoration: none;
-  margin-left: 4px;
-}
-
-br {
-  height: 20px;
 }
