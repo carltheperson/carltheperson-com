@@ -1,10 +1,23 @@
 {
-  "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting": [
+    {
+      "site": "carltheperson",
+      "redirects": [
+        {
+          "source": "/**",
+          "destination": "https://carlriis.com/**",
+          "type": 301
+        }
+      ]
+    },
+    {
+      "site": "carlriis",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
 }
