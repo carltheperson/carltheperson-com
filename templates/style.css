@@ -53,6 +53,7 @@ ul, ol {
 .bio {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .bio-img {
