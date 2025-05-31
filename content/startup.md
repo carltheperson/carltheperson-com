@@ -60,13 +60,9 @@ You should have a healthy amount of paranoia that you're wrong, all the time.
 
 ### Anti-hype
 
-Hype is dangerous. It's an effective tool to gaslight you and your team.
+Using emotional hype within a team can be tempting as a way to generate motivation. However, it clouds judgment and numbs your ability to recognize wrongness.<a class="foot-note" href="#f3">[3]</a>
 
-When you're hyped, it becomes harder to make rational decisions.
-
-It's a tempting feeling to spark because it numbs your capacity to judge wrongness.<a class="foot-note" href="#f3">[3]</a>
-
-Hype should be held at a safe distance, experienced as an emotion to conclusive results, not deployed as motivation to rally ideas.
+Internally, hype should be kept at a safe distance—felt as a response to conclusive results, not used as a tool to rally ideas.
 
 ### Anti-rigid processes
 
