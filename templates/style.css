@@ -40,8 +40,11 @@ a, p {
 }
 
 ul, ol {
-  list-style-position: inside;
   margin-left: 15px;
+}
+
+li {
+  margin-left: 10px;
 }
 
 .home-container {
@@ -53,6 +56,7 @@ ul, ol {
 .bio {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .bio-img {
