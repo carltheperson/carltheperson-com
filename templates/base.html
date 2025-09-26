@@ -1,24 +1,155 @@
 {{define "base"}}
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function () {
+        var storageKey = "theme";
+        var stored;
+        try {
+          stored = localStorage.getItem(storageKey);
+        } catch (e) {
+          stored = null;
+        }
+        var systemDark = false;
+        if (window.matchMedia) {
+          try {
+            systemDark = window.matchMedia(
+              "(prefers-color-scheme: dark)"
+            ).matches;
+          } catch (e) {}
+        }
+        var initial =
+          stored === "light" || stored === "dark"
+            ? stored
+            : systemDark
+            ? "dark"
+            : "light";
+        document.documentElement.setAttribute("data-theme", initial);
+      })();
+    </script>
+    <script>
+      (function () {
+        var theme = document.documentElement.getAttribute("data-theme");
+        var href = theme === "dark" ? "/prism-dark.css" : "/prism.css";
+        document.write(
+          '<link id="prism-css" rel="stylesheet" href="' + href + '">'
+        );
+      })();
+    </script>
+    <style>
+      /* Prevent white flash on dark mode before CSS loads */
+      :root[data-theme="dark"] html,
+      :root[data-theme="dark"] body {
+        background: #0c0c0d;
+        color: #e5e7eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) html,
+        :root:not([data-theme="light"]) body {
+          background: #0c0c0d;
+          color: #e5e7eb;
+        }
+      }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <title>{{template "title" .}}</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="preload"
+      href="/RobotoMono-VariableFont_wght.ttf"
+      as="font"
+      type="font/ttf"
+    />
+    {{template "ogTags" .}}
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <title>{{template "title" .}}</title>
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="stylesheet" href="/prism.css" />
-  <link rel="preload" href="/RobotoMono-VariableFont_wght.ttf" as="font" type="font/ttf">
-  {{template "ogTags" .}}
-</head>
-
-<body>
-  {{template "main" .}}
-  <script src="/prism.js"></script>
-</body>
-
+  <body>
+    {{template "main" .}}
+    <script>
+      (function () {
+        var storageKey = "theme";
+        var root = document.documentElement;
+        var btn = document.getElementById("theme-toggle");
+        function loadPrismFor(theme) {
+          var css = document.getElementById("prism-css");
+          if (css) {
+            var targetHref =
+              theme === "dark" ? "/prism-dark.css" : "/prism.css";
+            if (css.getAttribute("href") !== targetHref)
+              css.setAttribute("href", targetHref);
+          }
+          var old = document.getElementById("prism-js");
+          var s = document.createElement("script");
+          s.id = "prism-js";
+          s.src = theme === "dark" ? "/prism-dark.js" : "/prism.js";
+          s.onload = function () {
+            if (window.Prism && window.Prism.highlightAll)
+              window.Prism.highlightAll();
+          };
+          if (old && old.parentNode) old.parentNode.replaceChild(s, old);
+          else document.body.appendChild(s);
+        }
+        // expose for toggle handler
+        window.__setPrismTheme = loadPrismFor;
+        function getStored() {
+          try {
+            return localStorage.getItem(storageKey);
+          } catch (e) {
+            return null;
+          }
+        }
+        function getPreferred() {
+          var stored = getStored();
+          if (stored === "light" || stored === "dark") return stored;
+          return window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        function apply(theme) {
+          root.setAttribute("data-theme", theme);
+          try {
+            localStorage.setItem(storageKey, theme);
+          } catch (e) {}
+        }
+        function updateButton() {
+          if (!btn) return;
+          var theme = root.getAttribute("data-theme") || getPreferred();
+          btn.textContent = theme === "dark" ? "(light mode)" : "(dark mode)";
+        }
+        if (btn) {
+          btn.addEventListener("click", function () {
+            var current = root.getAttribute("data-theme") || getPreferred();
+            var next = current === "dark" ? "light" : "dark";
+            apply(next);
+            updateButton();
+            if (window.__setPrismTheme) window.__setPrismTheme(next);
+          });
+          updateButton();
+        }
+        // initial Prism load
+        loadPrismFor(getPreferred());
+        if (window.matchMedia) {
+          var mql = window.matchMedia("(prefers-color-scheme: dark)");
+          var handler = function (e) {
+            if (!getStored()) {
+              apply(e.matches ? "dark" : "light");
+              updateButton();
+              if (window.__setPrismTheme)
+                window.__setPrismTheme(e.matches ? "dark" : "light");
+            }
+          };
+          if (mql.addEventListener) mql.addEventListener("change", handler);
+          else if (mql.addListener) mql.addListener(handler);
+        }
+      })();
+    </script>
+  </body>
 </html>
 {{end}}

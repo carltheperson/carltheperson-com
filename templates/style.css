@@ -5,14 +5,116 @@
 }
 
 @font-face {
-  font-family: 'RobotoMono';
-  src: url('/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  font-family: "RobotoMono";
+  src: url("/RobotoMono-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --color-bg-light: #ffffff;
+  --color-text-light: #111111;
+  --color-link-light: darkblue;
+  --color-hr-light: gray;
+  --color-title-cover-bg-light: #f3f3f391;
+  --color-quote-bg-light: #fdf6e37a;
+
+  --color-embedded-code-text-light: black;
+  --color-embedded-code-text-a-light: #081b84;
+  --color-embedded-code-bg-light: #f2f2f2;
+
+  --color-bg-dark: #0c0c0d;
+  --color-text-dark: #e5e7eb;
+  --color-link-dark: #8ab4f8;
+  --color-hr-dark: #3a3a3a;
+  --color-title-cover-bg-dark: rgba(255, 255, 255, 0.06);
+  --color-quote-bg-dark: rgba(253, 246, 227, 0.1);
+
+  --color-embedded-code-text-dark: #cec274;
+  --color-embedded-code-text-a-dark: #dbaf5d;
+  --color-embedded-code-bg-dark: #1e1e1e;
+
+  --font-size-base: 16px;
+  --font-size-code: 14.5px;
+  --font-size-embedded-code: 15px;
+  --font-size-footnote: 13px;
+  --font-size-footnotes: 14px;
+  --font-size-button: 14px;
+
+  /* Setting default to light */
+  --color-bg: var(--color-bg-light);
+  --color-text: var(--color-text-light);
+  --color-link: var(--color-link-light);
+  --color-hr: var(--color-hr-light);
+  --color-title-cover-bg: var(--color-title-cover-bg-light);
+  --color-quote-bg: var(--color-quote-bg-light);
+  --color-embedded-code-text: var(--color-embedded-code-text-light);
+  --color-embedded-code-text-a: var(--color-embedded-code-text-a-light);
+  --color-embedded-code-bg: var(--color-embedded-code-bg-light);
+}
+
+/* Why am I doing all this so many times? I don't know */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-bg-dark);
+    --color-text: var(--color-text-dark);
+    --color-link: var(--color-link-dark);
+    --color-hr: var(--color-hr-dark);
+    --color-title-cover-bg: var(--color-title-cover-bg-dark);
+    --color-quote-bg: var(--color-quote-bg-dark);
+    --color-embedded-code-text: var(--color-embedded-code-text-dark);
+    --color-embedded-code-text-a: var(--color-embedded-code-text-a-dark);
+    --color-embedded-code-bg: var(--color-embedded-code-bg-dark);
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-bg: var(--color-bg-light);
+  --color-text: var(--color-text-light);
+  --color-link: var(--color-link-light);
+  --color-hr: var(--color-hr-light);
+  --color-title-cover-bg: var(--color-title-cover-bg-light);
+  --color-quote-bg: var(--color-quote-bg-light);
+  --color-embedded-code-text: var(--color-embedded-code-text-light);
+  --color-embedded-code-text-a: var(--color-embedded-code-text-a-light);
+  --color-embedded-code-bg: var(--color-embedded-code-bg-light);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-dark);
+  --color-link: var(--color-link-dark);
+  --color-hr: var(--color-hr-dark);
+  --color-title-cover-bg: var(--color-title-cover-bg-dark);
+  --color-quote-bg: var(--color-quote-bg-dark);
+  --color-embedded-code-text: var(--color-embedded-code-text-dark);
+  --color-embedded-code-text-a: var(--color-embedded-code-text-a-dark);
+  --color-embedded-code-bg: var(--color-embedded-code-bg-dark);
+}
+
+pre[class*="language-"] {
+  border: none;
+  box-shadow: none;
 }
 
 body {
-  font-family: 'RobotoMono';
+  font-family: "RobotoMono";
   max-width: 750px;
   padding: 0 10px;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+p code:not([class*="language-"]) {
+  background-color: var(--color-embedded-code-bg);
+  font-size: var(--font-size-embedded-code);
+  padding: 0.5px 3px;
+  border-radius: 4px;
+  color: var(--color-embedded-code-text);
+}
+
+p a code:not([class*="language-"]) {
+  color: var(--color-embedded-code-text-a);
 }
 
 h1,
@@ -32,19 +134,22 @@ h6 {
 
 a {
   text-decoration: none;
-  color: darkblue;
+  color: var(--color-link);
 }
 
-a, p {
-  font-size: 16px;
+a,
+p {
+  font-size: var(--font-size-base);
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 15px;
 }
 
 li {
   margin-left: 10px;
+  line-height: 1.5;
 }
 
 .home-container {
@@ -69,7 +174,6 @@ li {
   gap: 20px;
 }
 
-
 .reader img {
   max-width: 90vw;
   width: 100%;
@@ -81,16 +185,19 @@ li {
 }
 
 .reader p {
-  margin-top: 8px;
-  margin-bottom: 24px;
+  margin: 16px 0;
 }
 
-.reader h2, h3, h4, h5, h6 {
-  margin: 16px 0 0 0;
+.reader h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 32px 0 0 0;
 }
 
 .reader .title-cover {
-  background-color: #f3f3f391;
+  background-color: var(--color-title-cover-bg);
   padding: 15px 10px;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -99,9 +206,8 @@ li {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-size: 16px;
+  font-size: var(--font-size-code);
 }
-
 
 .secret-area {
   text-align: center;
@@ -134,12 +240,11 @@ pre[class*="language-"] {
   margin-bottom: 50px;
 }
 
-
 blockquote {
   text-align: center;
   margin: 10px 5px;
   padding: 5px 10px;
-  background-color: #fdf6e37a;
+  background-color: var(--color-quote-bg);
 }
 
 blockquote p {
@@ -148,7 +253,7 @@ blockquote p {
 
 hr {
   border-style: double;
-  border-color: gray;
+  border-color: var(--color-hr);
 }
 
 .reader .foot-notes {
@@ -161,13 +266,13 @@ hr {
   opacity: 0.5;
   position: relative;
   top: -3px;
-  font-size: 13px;
+  font-size: var(--font-size-footnote);
   text-decoration: none;
   margin-left: 4px;
 }
 
 .reader .foot-notes * {
-  font-size: 14px;
+  font-size: var(--font-size-footnotes);
 }
 
 br {
@@ -204,4 +309,14 @@ br {
   .reader img {
     max-width: 90vw;
   }
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: var(--font-size-button);
+  color: var(--color-text);
+  font-family: "RobotoMono";
 }

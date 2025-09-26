@@ -66,6 +66,8 @@ func copyFavicon() {
 func copyCodeFormatting() {
 	Copy("./templates/code-formatting/prism.css", "./build/prism.css")
 	Copy("./templates/code-formatting/prism.js", "./build/prism.js")
+  Copy("./templates/code-formatting/prism-dark.css", "./build/prism-dark.css")
+  Copy("./templates/code-formatting/prism-dark.js", "./build/prism-dark.js")
 }
 
 func copyFont() {
