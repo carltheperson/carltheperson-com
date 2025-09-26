@@ -105,7 +105,8 @@ body {
   background-color: var(--color-bg);
 }
 
-p code:not([class*="language-"]) {
+p code:not([class*="language-"]),
+li code:not([class*="language-"]) {
   background-color: var(--color-embedded-code-bg);
   font-size: var(--font-size-embedded-code);
   padding: 0.5px 3px;
