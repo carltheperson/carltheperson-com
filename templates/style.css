@@ -113,7 +113,8 @@ p code:not([class*="language-"]) {
   color: var(--color-embedded-code-text);
 }
 
-p a code:not([class*="language-"]) {
+p a code:not([class*="language-"]),
+li a code:not([class*="language-"]) {
   color: var(--color-embedded-code-text-a);
 }
 
